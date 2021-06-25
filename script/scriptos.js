@@ -165,7 +165,7 @@ document.getElementById('main').className='pageColorBoy';
 
 document.getElementById('conteudo').className='m-auto';
 
-document.getElementById('principal').className='w-50 ms-5 me-auto float-start border  rounded border-danger bgBoy ';
+document.getElementById('principal').className='w-50 ms-md-3 me-md-2 float-start border  rounded border-danger bgBoy ';
 
 
 //
