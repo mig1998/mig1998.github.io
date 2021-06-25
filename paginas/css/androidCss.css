@@ -1,0 +1,167 @@
+
+a{
+	text-decoration: none;
+	color: green;
+}
+
+
+a:visited{
+	color:green;
+}
+
+
+ul{
+	list-style: none;
+}
+
+
+
+.hover{
+	transform: scale(1.3);
+	transition: 2s;
+}
+
+
+.nohover{
+	transform: scale(1.0);
+	transition: 2s;
+}
+
+
+.bodyAndroid{
+background: linear-gradient(black,cyan,white,white,black) no-repeat ;
+ background-size: cover;
+color:green;
+margin:auto;
+}
+
+
+.topoAndroid{
+text-align: center;
+font-size: 4em;
+text-shadow:3px 3px black;
+font-family: Arial;
+cursor: pointer;
+}
+
+
+.topoAndroid a{
+color: cyan;
+}
+
+
+
+.menuAndroid{
+float: left;
+background: linear-gradient(green,red,green);
+border-radius: 14px;
+border:1px solid red;
+margin: 5px 20%; 
+width: 47em;
+}
+
+
+
+.menuAndroid a{
+	border-radius: 14px;
+	padding: 5px  20px;
+	margin:10px;
+}
+
+
+.menuUAndroid{
+	margin: 0px;
+	float: left;
+	padding: 0px;
+}
+
+
+.menuUAndroid li{
+	float: left;
+	padding: 5px 10px;
+	border: 3px solid cyan;
+	border-radius: 14px;
+	margin:15px 10px;
+	background: green;
+}
+
+
+
+.menuUAndroid li a{
+font-family:Bernard MT Condensed;
+text-shadow:1px 1px black;
+color:white;
+}
+
+
+
+.menuUAndroid li a:hover{
+background-color: pink;
+}
+
+
+
+
+.principalAndroid{
+	width: 90%;
+height: 50em;
+font-size: 32px;
+background: linear-gradient(black,cyan,blue);
+text-shadow: 2px 2px black;
+border: 2px solid blue;
+border-radius: 10px;
+margin: 3em 2em;
+}
+
+
+
+.principalAndroid p{
+color:green;
+text-transform: uppercase;
+text-align: center;
+text-shadow: 2px 2px black;
+}
+
+
+
+
+.templateAndroid{
+	float: left;
+	margin: 1em 1em;	
+}
+
+
+
+
+.templateAndroid img{
+	height:13em; 
+	width:8em;
+	cursor: pointer;
+	margin: 15px;
+}
+
+
+
+.templateAndroid p{
+	text-transform: uppercase;
+	color:green;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	background: cyan;
+	margin: 5px;
+	padding:10px;
+	border-radius: 10px;
+}
+
+
+
+.footerAndroid{
+	clear: both;
+	background: white;
+	border: 2px solid red;
+	text-align: center;
+	width: 65%;
+	border-radius: 15px;
+	margin-left: 17em;
+	font-size: 17px;
+}
