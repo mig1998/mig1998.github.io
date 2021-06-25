@@ -28,6 +28,15 @@ document.getElementById('lateralEsquerdo').style.display='none';
 // 
 document.getElementById('rodape').className='border border-success  ms-5 w-50 text-center bg-light';
 
+
+
+ let Menu=document.querySelectorAll('#MenuUl li a');
+
+for(let i = 0; i <=Menu.length; i++){
+    Menu[i].className = 'nav-link text-warning rounded-pill';
+}
+
+
 }
 
 
