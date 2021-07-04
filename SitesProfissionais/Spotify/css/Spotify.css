@@ -1,0 +1,85 @@
+/* Layout
+-----------------------------*/
+html, body{
+	height: 100%;
+	overflow-x: hidden;
+}
+
+
+.quadrado{
+
+	height:500px;
+	border:1px solid red;
+}
+
+.quadrado2{
+	height:100px;
+}
+
+
+
+
+
+/* Capa
+-----------------------------*/
+
+.carousel-item h1{
+	color:white;
+	font-size:5em;
+}
+
+.btn-custom {
+	color: white;
+	border-radius: 10em;
+    text-transform: uppercase;
+    transition: background 1s, color 1s;
+    padding: 10px;
+}
+
+.btn-roxo {
+	background: #7c25f8;
+}
+
+.btn-roxo:hover {
+	background: #6207e3;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+
+/* Estrutura conteúdos
+-----------------------------*/
+
+
+
+#servicos {
+	background: white;
+}
+
+
+#recursos, #recursos h2, #recursos h3 {
+	color: white;
+}
+
+
+
+#servicos h2, h3 {
+	color: #7c25f8;
+}
+
+
+
+.rotacionar {
+    transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+

@@ -1,0 +1,26 @@
+*{
+	color:white;
+}
+
+
+body{
+background:#312e2e;
+}
+
+
+.carousel-item img{
+	width:200px;
+	height:225px;
+}
+
+
+.info{
+	width:35%;
+	text-align:center;
+	border:1px solid red;
+}
+
+figure{
+	border:1px solid red;
+	margin-left:20px;
+}
