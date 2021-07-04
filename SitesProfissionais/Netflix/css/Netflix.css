@@ -11,6 +11,7 @@ background:#312e2e;
 .carousel-item img{
 	width:200px;
 	height:225px;
+	cursor:pointer;
 }
 
 
@@ -23,4 +24,9 @@ background:#312e2e;
 figure{
 	border:1px solid red;
 	margin-left:20px;
+}
+
+figure img{
+ height:34em;
+ width:100%;
 }
