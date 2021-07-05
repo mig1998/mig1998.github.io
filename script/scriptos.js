@@ -8,7 +8,7 @@ document.getElementById('main').className='pageColorInicial ';
 
 // 
  document.getElementById('menu').className='navbar navbar-expand-lg navbar-dark bgNavInicial';
- document.getElementById('MenuUl').className='menuInicial navbar-nav m-auto  pt-2 pb-2 pr-4 pl-4 border rounded-pill border-primary colorUlInicial stick-top ';
+ document.getElementById('MenuUl').className='menuInicial navbar-nav m-auto  pt-2 pb-2 pr-4 pl-4 border rounded-pill border-primary colorUlInicial';
 	document.querySelector('#MenuUl li').className='nav-item active mr-2 border rounded-pill bg-danger ';
 // 
 
@@ -52,7 +52,7 @@ document.getElementById('main').className='pageColorFire';
 // 
  document.getElementById('menu').className='navbar navbar-expand-sm navbar-dark pageColorFire';
 
- document.getElementById('MenuUl').className='navbar-nav p-2 text-center ms-auto bgNavFire stick-top';
+ document.getElementById('MenuUl').className='navbar-nav p-2 text-center ms-auto bgNavFire';
 document.querySelector('#MenuUl li').className='nav-item active mr-2';
 
 //
@@ -98,7 +98,7 @@ document.getElementById('main').className='pageColorGirl';
 // 
  document.getElementById('menu').className='navbar navbar-expand-lg navbar-dark pageColorGirl';
 
- document.getElementById('MenuUl').className='navbar-nav m-auto  pt-2 pb-2 pr-4 pl-4 border rounded-pill border-primary bgNavGirl stick-top ';
+ document.getElementById('MenuUl').className='navbar-nav m-auto  pt-2 pb-2 pr-4 pl-4 border rounded-pill border-primary bgNavGirl ';
 
 
 
@@ -155,7 +155,7 @@ document.getElementById('main').className='pageColorBoy';
 // 
  document.getElementById('menu').className='navbar navbar-expand-lg navbar-dark bg-dark';
 
- document.getElementById('MenuUl').className='navbar-nav m-auto  pt-2 pb-2 pr-4 pl-4 border rounded-pill border-primary bgNavBoy stick-top ';
+ document.getElementById('MenuUl').className='navbar-nav m-auto  pt-2 pb-2 pr-4 pl-4 border rounded-pill border-primary bgNavBoy';
 
 
 
