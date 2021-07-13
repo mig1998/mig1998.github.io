@@ -5,7 +5,12 @@
 
 
 .carousel-item h1{
-	color:cyan;
+	color:yellow;
+
+}
+
+.carousel-item p{
+	font-size:2em;
 
 }
 
@@ -18,3 +23,42 @@
 li a:hover{
 	background:red;
 }
+
+article{
+	background:url('imagens/Fundo.jpg'); background-size:cover;
+}
+
+
+
+figure{
+	float:left;
+	margin:auto;
+}
+
+
+figcaption{
+	position:relative;
+	bottom:2em;
+	font-size:30px;
+	color:cyan;
+	text-shadow: 2px 2px black;
+	font-weight:bold;
+}
+
+.cardapio img{
+	width:25em;
+	height:20em;
+	margin:5px;
+}
+
+
+.cardapio img:hover{
+	transition:2s;
+	opacity:60%;
+	cursor:pointer;
+}
+
+.clear{
+	clear:both;
+}
+
