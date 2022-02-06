@@ -29,7 +29,7 @@ ul{
 
 
 .bodySharp{
-background: linear-gradient(blue,black,white,black,white) no-repeat ;
+background: blue no-repeat ;
  background-size: cover;
 color:grey;
 margin:auto;
@@ -47,7 +47,7 @@ cursor: pointer;
 
 
 .topoSharp a{
-color: grey;
+color: violet;
 }
 
 
@@ -56,7 +56,7 @@ color: grey;
 float: left;
 background: black;
 border-radius: 14px;
-margin: 5px 22%; 
+margin: 5px 25% auto; 
 width: 48em;
 }
 
@@ -95,7 +95,8 @@ background-color: white;
 .principalSharp{
 height: 50em;
 font-size: 32px;
-background: black;
+background: grey;
+border-radius: 20px;
 border: 2px solid black;
 margin: 3em 2em;
 }
@@ -103,10 +104,10 @@ margin: 3em 2em;
 
 
 .principalSharp p{
-color:gray;
+color:black;
 text-transform: uppercase;
 text-align: center;
-text-shadow: 2px 2px black;
+
 }
 
 
@@ -129,10 +130,10 @@ section.templateSharp{
 
 section.templateSharp p{
 	text-transform: uppercase;
-	color:black;
+	color:grey;
 	text-shadow: 1px 1px black;
 	text-align: center;
-	background: gray;
+	background:	black;
 	margin: 5px;
 	padding:10px;
 	border-radius: 10px;

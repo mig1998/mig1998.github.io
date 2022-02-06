@@ -29,7 +29,7 @@ ul{
 
 
 .bodyAndroid{
-background: linear-gradient(black,cyan,white,white,black) no-repeat ;
+background: linear-gradient(black,grey,white,white,black) no-repeat ;
  background-size: cover;
 color:green;
 margin:auto;
@@ -53,10 +53,9 @@ color: cyan;
 
 .menuAndroid{
 float: left;
-background: linear-gradient(green,red,green);
+background: black;
 border-radius: 14px;
-border:1px solid red;
-margin: 5px 20%; 
+margin: 5px 25% auto; 
 width: 47em;
 }
 
@@ -82,7 +81,7 @@ width: 47em;
 	border: 3px solid cyan;
 	border-radius: 14px;
 	margin:15px 10px;
-	background: green;
+	background: ;
 }
 
 
@@ -96,7 +95,7 @@ color:white;
 
 
 .menuUAndroid li a:hover{
-background-color: pink;
+background-color: grey;
 }
 
 
@@ -106,9 +105,8 @@ background-color: pink;
 	width: 90%;
 height: 50em;
 font-size: 32px;
-background: linear-gradient(black,cyan,blue);
+background: black;
 text-shadow: 2px 2px black;
-border: 2px solid blue;
 border-radius: 10px;
 margin: 3em 2em;
 }

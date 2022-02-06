@@ -53,9 +53,9 @@ color: cyan;
 
 .menuPhpWeb{
 float: left;
-background: linear-gradient(cyan,blue);
+background: blue;
 border-radius: 14px;
-margin: 5px 20%; 
+margin: 5px 25% auto; 
 width: 48em;
 }
 
@@ -100,7 +100,7 @@ background-color:blue ;
 .principalPhpWeb{
 height: 100%;
 font-size: 32px;
-background: linear-gradient(white,cyan,blue);
+background: blue;
 text-shadow: 2px 2px black;
 border: 2px solid blue;
 border-radius: 10px;
