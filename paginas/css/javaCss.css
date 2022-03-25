@@ -1,155 +1,121 @@
-
-
-a{
-	text-decoration: none;
-	color: grey;
-
+a {
+    text-decoration: none;
+    color: grey;
 }
 
-a:visited{
-	color:grey;
+a:visited {
+    color: grey;
 }
 
-ul{
-	list-style: none;
+ul {
+    list-style: none;
 }
 
-
-
-.hover{
-	transform: scale(1.3);
-	transition: 2s;
+.hover {
+    transform: scale(1.3);
+    transition: 2s;
 }
 
-.nohover{
-	transform: scale(1.0);
-	transition: 2s;
+.nohover {
+    transform: scale(1.0);
+    transition: 2s;
 }
 
-
-.bodyJava{
-background: linear-gradient(cyan,white,white,blue,white) no-repeat ;
- background-size: cover;
-color:grey;
-margin:auto;
-
+body {
+    background: linear-gradient(rgb(154, 228, 228), cyan, rgb(62, 116, 138)) no-repeat;
+    background-size: cover;
+    color: grey;
+    margin: auto;
 }
 
-
-.topoJava{
-text-align: center;
-font-size: 4em;
-text-shadow:2px 2px black;
-font-family: Arial;
-cursor: pointer;
+.topoJava {
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 1px 1px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
 }
 
-
-
-.topoJava a{
-color: red;
+.topoJava a {
+    color: blue;
 }
 
-
-
-.menuJava{
-float: left;
-background: blue;
-border-radius: 14px;
-margin: 5px 22%; 
-width: 45em;
+#menu ul {
+    text-align: center;
+    background: rgb(65, 45, 136);
+    padding: 1%;
+    margin: auto;
+    width: 65%;
+    border-radius: 20px;
 }
 
-
-
-.menuJava a{
-	border-radius: 14px;
-	padding: 5px  20px;
-	margin:10px;
-	color:white;
+#menu ul li {
+    text-align: center;
+    display: inline;
+    padding: 0.1% 2%;
+    border-radius: 20px;
+    background-color: blue;
+    border: 3px solid rgb(147, 116, 221);
+    margin: 1px 1%;
+    font-size: 1.5em;
 }
 
-
-.menuUJava{
-	margin: 0px;
-	float: left;
-	padding: 0px;
+nav#menu ul li a {
+    color: white;
 }
 
-
-
-.menuUJava li{
-	float: left;
-	padding: 5px;
-	border: 3px solid white;
-	border-radius: 14px;
-	margin:15px 10px;
+.menuUJava li a:hover {
+    background-color: rgb(21, 65, 131);
+    border-radius: 20px;
 }
 
-
-
-.menuUJava li a:hover{
-background-color: cyan;
+.principalJava {
+    height: 100%;
+    font-size: 32px;
+    background: white;
+    border: 1px solid black;
+    margin: 1em 2em;
+    border-radius: 20px;
 }
 
-
-
-.principalJava{
-height: 50em;
-font-size: 32px;
-background: linear-gradient(white,cyan,white,cyan);
-border: 2px solid black;
-margin: 3em 2em;
+.principalJava p {
+    color: gray;
+    text-transform: capitalize;
+    text-align: center;
 }
 
-
-.principalJava p{
-color:gray;
-text-transform: uppercase;
-text-align: center;
-text-shadow: 2px 2px black;
+.templateJava {
+    float: left;
+    margin: 1em 1em;
 }
 
-
-
-.templateJava{
-	float: left;
-	margin: 1em 1em;
-	
+.templateJava img {
+    height: 8em;
+    width: 8em;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 20px;
 }
 
-
-.templateJava img{
-	height:8em; 
-	width:8em;
-	cursor: pointer;
-	margin: 15px;
-
+.templateJava p {
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    background: rgb(65, 45, 136);
+    margin: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-.templateJava p{
-	text-transform: uppercase;
-	color:black;
-	text-shadow: 1px 1px black;
-	text-align: center;
-	border: 1px solid red;
-	background: cyan;
-	margin: 5px;
-	padding:10px;
-	border-radius: 10px;
-}
-
-
-
-.footerJava{
-	clear: both;
-	background: white;
-	border: 2px solid red;
-	text-align: center;
-	width: 65%;
-	border-radius: 15px;
-	margin-left: 17em;
-	font-size: 17px;
-
-
+.footerJava {
+    clear: both;
+    background: white;
+    border: 2px solid red;
+    text-align: center;
+    width: 65%;
+    border-radius: 15px;
+    margin-left: 17em;
+    font-size: 17px;
 }

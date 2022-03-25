@@ -1,153 +1,122 @@
-a{
-	text-decoration: none;
-	color: grey;
+* {
+    text-decoration: none !important;
+    list-style: none;
 }
 
-
-a:visited{
-	color:grey;
+.hover {
+    transform: scale(1.3);
+    transition: 2s;
 }
 
-ul{
-	list-style: none;
+.nohover {
+    transform: scale(1.0);
+    transition: 2s;
 }
 
-
-
-.hover{
-	transform: scale(1.3);
-	transition: 2s;
+body {
+    background: rgb(133, 118, 218) no-repeat;
+    background-size: cover;
+    margin: auto;
 }
 
-
-
-.nohover{
-	transform: scale(1.0);
-	transition: 2s;
+header.topoSharp {
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 1px 3px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
 }
 
-
-
-.bodySharp{
-background: blue no-repeat ;
- background-size: cover;
-color:grey;
-margin:auto;
+.topoSharp a {
+    color: rgb(255, 255, 255);
 }
 
-
-.topoSharp{
-text-align: center;
-font-size: 4em;
-text-shadow:2px 2px black;
-font-family: Arial;
-cursor: pointer;
+#menu ul {
+    text-align: center;
+    background: rgb(127, 230, 216);
+    padding: 0.9%;
+    margin: auto;
+    width: 65%;
+    border-radius: 20px;
 }
 
-
-
-.topoSharp a{
-color: violet;
+#menu ul li {
+    text-align: center;
+    display: inline;
+    background: rgb(92, 94, 236);
+    padding: 0.1% 2%;
+    border-radius: 20px;
+    margin: 1px 2%;
+    font-size: 1.5em;
 }
 
-
-
-.menuSharp{
-float: left;
-background: black;
-border-radius: 14px;
-margin: 5px 25% auto; 
-width: 48em;
+nav#menu ul li a {
+    color: gold;
 }
 
-
-.menuSharp a{
-	border-radius: 14px;
-	padding: 5px  20px;
-	margin:10px;
-
+.menuUSharp li a:hover {
+    background-color: rgb(0, 183, 255);
+    border-radius: 20px;
+    padding: 0.1%;
 }
 
-
-.menuUSharp{
-	margin: 0px;
-	float: left;
-	padding: 0px;
+.principalSharp {
+    height: 100%;
+    font-size: 2em;
+    margin: 2% 2em;
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
-
-.menuUSharp li{
-	float: left;
-	padding: 5px;
-	border: 3px solid grey;
-	border-radius: 14px;
-	margin:15px 10px;
+.principalSharp p {
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
 }
 
-
-
-.menuUSharp li a:hover{
-background-color: white;
+.column {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 33%;
 }
 
-
-
-.principalSharp{
-height: 50em;
-font-size: 32px;
-background: grey;
-border-radius: 20px;
-border: 2px solid black;
-margin: 3em 2em;
+.row {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
 }
 
-
-
-.principalSharp p{
-color:black;
-text-transform: uppercase;
-text-align: center;
-
+.row img {
+    height: 8em;
+    width: 8em;
+    cursor: pointer;
+    margin: 15px;
 }
 
-
-
-section.templateSharp{
-	float: left;
-	margin: 1em 1em;	
+section p {
+    text-transform: capitalize;
+    color: grey;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    background: rgb(127, 230, 216);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-
-
-.templateSharp img{
-	height:8em; 
-	width:8em;
-	cursor: pointer;
-	margin: 15px;
+section a:hover {
+    background-color: blue;
 }
 
-
-
-section.templateSharp p{
-	text-transform: uppercase;
-	color:grey;
-	text-shadow: 1px 1px black;
-	text-align: center;
-	background:	black;
-	margin: 5px;
-	padding:10px;
-	border-radius: 10px;
-}
-
-
-
-.footerSharp{
-	clear: both;
-	background: white;
-	border: 2px solid red;
-	text-align: center;
-	width: 65%;
-	border-radius: 15px;
-	margin-left: 17em;
-	font-size: 17px;
+.footerSharp {
+    clear: both;
+    background: white;
+    border: 2px solid red;
+    text-align: center;
+    width: 65%;
+    border-radius: 15px;
+    margin-left: 17em;
+    font-size: 17px;
 }

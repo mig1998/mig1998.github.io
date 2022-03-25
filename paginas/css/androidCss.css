@@ -1,165 +1,110 @@
-
-a{
-	text-decoration: none;
-	color: green;
+a {
+    text-decoration: none;
 }
 
-
-a:visited{
-	color:green;
+ul {
+    list-style: none;
 }
 
-
-ul{
-	list-style: none;
+.hover {
+    transform: scale(1.3);
+    transition: 2s;
 }
 
-
-
-.hover{
-	transform: scale(1.3);
-	transition: 2s;
+.nohover {
+    transform: scale(1.0);
+    transition: 2s;
 }
 
-
-.nohover{
-	transform: scale(1.0);
-	transition: 2s;
+.bodyAndroid {
+    background-size: cover;
+    color: white;
+    margin: auto;
+    text-align: center;
 }
 
-
-.bodyAndroid{
-background: linear-gradient(black,grey,white,white,black) no-repeat ;
- background-size: cover;
-color:green;
-margin:auto;
+.topoAndroid {
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 1px 1px black;
+    font-family: Arial;
+    cursor: pointer;
 }
 
-
-.topoAndroid{
-text-align: center;
-font-size: 4em;
-text-shadow:3px 3px black;
-font-family: Arial;
-cursor: pointer;
+.topoAndroid a {
+    color: greenyellow;
 }
 
-
-.topoAndroid a{
-color: cyan;
+#menu ul {
+    text-align: center;
+    background: rgb(93, 247, 126);
+    padding: 1%;
+    margin: auto;
+    width: 65%;
+    border-radius: 20px;
 }
 
-
-
-.menuAndroid{
-float: left;
-background: black;
-border-radius: 14px;
-margin: 5px 25% auto; 
-width: 47em;
+#menu ul li {
+    text-align: center;
+    display: inline;
+    padding: 0.1% 2%;
+    border-radius: 20px;
+    background-color: rgb(5, 160, 39);
+    border: 1px solid black;
+    margin: 1px 1%;
+    font-size: 1.5em;
 }
 
-
-
-.menuAndroid a{
-	border-radius: 14px;
-	padding: 5px  20px;
-	margin:10px;
+#menu li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 1em;
 }
 
-
-.menuUAndroid{
-	margin: 0px;
-	float: left;
-	padding: 0px;
+#menu li a:hover {
+    background-color: yellowgreen;
+    border-radius: 20px;
 }
 
-
-.menuUAndroid li{
-	float: left;
-	padding: 5px 10px;
-	border: 3px solid cyan;
-	border-radius: 14px;
-	margin:15px 10px;
-	background: ;
+.principalAndroid {
+    width: 90%;
+    height: 100%;
+    font-size: 32px;
+    background: blue;
+    border-radius: 10px;
+    margin: 2% 2em;
 }
 
-
-
-.menuUAndroid li a{
-font-family:Bernard MT Condensed;
-text-shadow:1px 1px black;
-color:white;
+.templateAndroid {
+    float: left;
+    margin: 1em 1em;
 }
 
-
-
-.menuUAndroid li a:hover{
-background-color: grey;
+.templateAndroid img {
+    height: 13em;
+    width: 8em;
+    cursor: pointer;
+    margin: 15px;
 }
 
-
-
-
-.principalAndroid{
-	width: 90%;
-height: 50em;
-font-size: 32px;
-background: black;
-text-shadow: 2px 2px black;
-border-radius: 10px;
-margin: 3em 2em;
+.templateAndroid p {
+    text-transform: capitalize;
+    text-align: center;
+    background: yellowgreen;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
 }
 
-
-
-.principalAndroid p{
-color:green;
-text-transform: uppercase;
-text-align: center;
-text-shadow: 2px 2px black;
-}
-
-
-
-
-.templateAndroid{
-	float: left;
-	margin: 1em 1em;	
-}
-
-
-
-
-.templateAndroid img{
-	height:13em; 
-	width:8em;
-	cursor: pointer;
-	margin: 15px;
-}
-
-
-
-.templateAndroid p{
-	text-transform: uppercase;
-	color:green;
-	text-shadow: 1px 1px black;
-	text-align: center;
-	background: cyan;
-	margin: 5px;
-	padding:10px;
-	border-radius: 10px;
-}
-
-
-
-.footerAndroid{
-	clear: both;
-	background: white;
-	border: 2px solid red;
-	text-align: center;
-	width: 65%;
-	border-radius: 15px;
-	margin-left: 17em;
-	font-size: 17px;
+.footerAndroid {
+    clear: both;
+    background: white;
+    border: 2px solid red;
+    text-align: center;
+    width: 65%;
+    color: black;
+    border-radius: 15px;
+    margin-left: 17em;
+    font-size: 17px;
 }
