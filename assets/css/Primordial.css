@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+    text-decoration: none !important;
+}
+
+img {
+    cursor: pointer;
+}
+
+footer img {
+    width: 5em;
+}
+
+.comHover:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+
+/* page Inicial------------------------------------ */
+
+.pageColorInicial {
+    background-color: #89e0e5;
+}
+
+.bgNavInicial {
+    background-color: #0a006d;
+}
+
+.colorUlInicial {
+    background-color: #3326b9;
+}
+
+.templateInicial h1,
+.templateInicial h4,
+.templateInicial h5 {
+    color: red;
+}
+
+.menuInicial li a:hover {
+    background-color: #89e0e5;
+}
+
+
+/* --------fire---------------------------- */
+
+.pageColorFire {
+    background: #ff6600;
+}
+
+.bgNavFire {
+    background: #ce602a;
+}
+
+.bgNavFire li a:hover {
+    background: red;
+}
+
+.bgFire {
+    background: #7f1717;
+}
+
+.templateFire h1,
+.templateFire h4,
+.templateFire h5 {
+    color: orange;
+}
+
+
+/* girls ------------------------------------------*/
+
+.pageColorGirl {
+    background: pink;
+}
+
+.bgNavGirl {
+    background: white;
+    font-family: Brush Script Std;
+}
+
+.bgNavGirl li a:hover {
+    background-color: pink;
+}
+
+.bgGirl {
+    background: #93149e;
+}
+
+.templateGirl h1,
+.templateGirl h4,
+.templateGirl h5 {
+    color: #0808b4;
+}
+
+
+/* Boy ------------------------------------------*/
+
+.pageColorBoy {
+    background: white;
+}
+
+.bgNavBoy {
+    background: #adadad;
+}
+
+.bgNavBoy li a:hover {
+    background: grey;
+}
+
+.bgBoy {
+    background: grey;
+}
+
+.templateBoy h1,
+.templateBoy h4,
+.templateBoy h5 {
+    color: black;
+}

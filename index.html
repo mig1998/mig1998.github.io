@@ -13,19 +13,19 @@
 
 
     <!-- bootstrap 5 -->
-    <link rel="stylesheet" href="BootStrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 
 
-    <link rel="stylesheet" type="text/css" href="css/Primordial.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/Primordial.css">
 
-    <script type="text/javascript" src="script/scriptos.js"></script>
+    <script type="text/javascript" src="assets/scripts/scriptos.js"></script>
 
 </head>
 
 
 
 
-<body id="template" class="templateInicial w-auto">
+<body id="template" class="templateInicial">
     <!-- header aa-->
     <header id="cabeca" class="">
         <p class="text-center p-3 "><a href="index.html" style="text-decoration:none;" class="display-3">Template Master</a></p>
@@ -79,86 +79,78 @@
 
 
 
-        <aside id="lateralEsquerdo" style="display:none;" class="w-25 float-end border border-danger rounded bg-white">
-            <h5 class="text-md-center">Templates</h5>
-            <p class="lead">orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a diam gravida, scelerisque mi ut, gravida dui. Vivamus sit amet nibh ac metus pellentesque viverra quis sit amet lacus. Nam a tristique nisi.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <aside id="lateralEsquerdo" style="display:none;" class="col-md-4 border border-danger rounded bg-white">
+                    <h5 class="text-md-center">Templates</h5>
+                    <p class="lead">orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a diam gravida, scelerisque mi ut, gravida dui. Vivamus sit amet nibh ac metus pellentesque viverra quis sit amet lacus. Nam a tristique nisi.</p>
 
-            <section onclick="templateNome()" id=" " class="">
+                    <section onclick="" id=" " class="">
 
-                <img class="rounded w-75 ms-md-5 mb-md-5  comHover" src="imagens/firestormScreenNew.jpg " id="" onclick="templateFire()">
-                <img class="rounded w-75 ms-md-5 mb-md-5  comHover" src="imagens/BoyScreenNew.jpg " id="" onclick="templateBoys()">
-                <img class="rounded w-75 ms-md-5 mb-md-5  comHover" src="imagens/TemplateSweetFullNew.jpg " id="" onclick="templateSweet()">
-            </section>
+                        <img class="rounded w-75 ms-md-5 mb-md-5  comHover" src="assets/imgs/firestormScreenNew.jpg" id="" onclick="templateFire()">
+                        <img class="rounded w-75 ms-md-5 mb-md-5  comHover" src="assets/imgs/BoyScreenNew.jpg" id="" onclick="templateBoys()">
+                        <img class="rounded w-75 ms-md-5 mb-md-5  comHover" src="assets/imgs/TemplateSweetFullNew.jpg" id="" onclick="templateSweet()">
+                    </section>
 
-        </aside>
-
-
-        <!-- onde ficara os templates -->
-        <article id="principal" class="w-75 float-start border  rounded border-danger pageColorInicial">
-
-            <!-- secao templates -->
-            <section id="conteudo" class="m-auto">
+                </aside>
 
 
-                <h1 class="text-md-center">Templates</h1>
+                <!-- onde ficara os templates -->
+                <article id="principal" class="col-md-9 border border-danger pageColorInicial">
 
-                <p class="text-monospace">Ola,Sejam bem vindo ao meu portfolio, esses site são apenas para publicar meus projetos ou ideias,como pode ver no menu existe variadas opções cujo eu pretendo realizar projetos e publica-los.
-                </p>
-
-                <p>nessa parte do site o intuito dele, é apenas demonstrativo, na onde voce deve clicar em uma imagem, e vera Todo o site se modificar de acordo com a foto clicada.</p>
-
-                <P class="font-weight-bold">TODOS FORAM PRODUZIDO EM Html,CSS,BootStrap,Javascript e Jquery</P>
-
-                <img class="rounded w-25 ms-md-5  comHover" src="imagens/TemplateSweetFullNew.jpg" id="" onclick="templateSweet()" />
-
-                <img class="rounded w-25 ms-md-5  comHover" src="imagens/firestormScreenNew.jpg" id="" onclick="templateFire()" />
-
-                <img class="rounded w-25 ms-md-5  comHover" src="imagens/GirlScreenNew.jpg" id="" onclick="templateGirls()" />
-
-                <img class="rounded w-25 ms-md-5  mt-3 comHover" src="imagens/BoyScreenNew.jpg" id="" onclick="templateBoys()" />
-            </section>
-
-        </article>
-
-
-        <aside id="lateralDireito" class="w-25 float-end border border-danger rounded bg-white">
-            <h5 class="text-md-center ">Templates</h5>
-            <p class="lead">orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a diam gravida, scelerisque mi ut, gravida dui. Vivamus sit amet nibh ac metus pellentesque viverra quis sit amet lacus. Nam a tristique nisi.</p>
-
-            <section onclick="templateNome()" id=" " class="">
-
-                <img class="rounded w-75 ms-md-5 mb-md-5 comHover" src="imagens/firestormScreenNew.jpg " id="" onclick="templateFire()">
-                <img class="rounded w-75 ms-md-5 mb-md-5 comHover" src="imagens/GirlScreenNew.jpg " id="" onclick="templateGirls()">
-                <img class="rounded w-75 ms-md-5 mb-md-5 comHover" src="imagens/TemplateSweetFullNew.jpg " id="" onclick="templateSweet()">
-            </section>
-
-        </aside>
+                    <!-- secao templates -->
 
 
 
+                    <h1 class="text-md-center">Templates</h1>
+
+                    <p class="text-monospace">Ola,Sejam bem vindo ao meu portfolio, esses site são apenas para publicar meus projetos ou ideias,como pode ver no menu existe variadas opções cujo eu pretendo realizar projetos e publica-los.
+                    </p>
+
+                    <p>nessa parte do site o intuito dele, é apenas demonstrativo, na onde voce deve clicar em uma imagem, e vera Todo o site se modificar de acordo com a foto clicada.</p>
+
+                    <P class="font-weight-bold">TODOS FORAM PRODUZIDO EM Html,CSS,BootStrap,Javascript e Jquery</P>
+
+                    <img class="rounded w-25 ms-md-5  comHover" src="assets/imgs/TemplateSweetFullNew.jpg" id="" onclick="templateSweet()" />
+
+                    <img class="rounded w-25 ms-md-5  comHover" src="assets/imgs/firestormScreenNew.jpg" id="" onclick="templateFire()" />
+
+                    <img class="rounded w-25 ms-md-5  comHover" src="assets/imgs/GirlScreenNew.jpg" id="" onclick="templateGirls()" />
+
+                    <img class="rounded w-25 ms-md-5  mt-3 comHover" src="assets/imgs/BoyScreenNew.jpg" id="" onclick="templateBoys()" />
 
 
-        <hr>
+                </article>
 
-        <footer id="rodape" class="border border-success  ms-5 w-50 text-center bg-light">
+
+                <aside id="lateralDireito" class="col-md-3 border border-danger rounded bg-white">
+                    <h5 class="text-md-center ">Templates</h5>
+                    <p class="lead">orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a diam gravida, scelerisque mi ut, gravida dui. Vivamus sit amet nibh ac metus pellentesque viverra quis sit amet lacus. Nam a tristique nisi.</p>
+
+                    <section id="" class="">
+
+                        <img class="rounded w-75 ms-md-5 mb-md-5 comHover" src="assets/imgs/firestormScreenNew.jpg" id="" onclick="templateFire()">
+                        <img class="rounded w-75 ms-md-5 mb-md-5 comHover" src="assets/imgs/GirlScreenNew.jpg" id="" onclick="templateGirls()">
+                        <img class="rounded w-75 ms-md-5 mb-md-5 comHover" src="assets/imgs/TemplateSweetFullNew.jpg" id="" onclick="templateSweet()">
+                    </section>
+
+                </aside>
+            </div>
+        </div>
+
+        <footer id="rodape" class="border border-success text-center bg-light">
 
             <h4>
                 <p class="">Miguel de Araujo da Silva- &copy; Todos os Direitos Reservados</p>
             </h4>
-            <p>
-                <a href="https://www.artstation.com/migmig" target="_blank"><img src="icones/artstation.png">Artstation
-                    <a></p>
-            <p>
-                <a href="https://github.com/mig1998?tab=repositories" target="_blank"><img src="icones/gitHUB.png">GitHub</a>
-            </p>
-            <p>
-                <a href="https://www.linkedin.com/in/miguelaraujo98/" target="_blank"><img src="icones/linkedin.png"> Linkedin</a>
-            </p>
+
+            <a class="me-5" href="https://github.com/mig1998?tab=repositories" target="_blank"><img src="assets/icons/gitHUB.png"></a>
+            <a href="https://www.linkedin.com/in/miguelaraujo98/" target="_blank"><img src="assets/icons/linkedin.png"></a>
         </footer>
 
 
     </main>
 
 
-    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
 </body>

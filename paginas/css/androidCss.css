@@ -1,13 +1,13 @@
-a {
-    text-decoration: none;
-}
-
-ul {
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    text-decoration: none !important;
     list-style: none;
+    font-family: 'Spartan', sans-serif;
 }
 
 .hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
     transition: 2s;
 }
 
@@ -32,6 +32,7 @@ ul {
 }
 
 .topoAndroid a {
+    font-family: 'Lobster', cursive;
     color: greenyellow;
 }
 
@@ -47,7 +48,7 @@ ul {
 #menu ul li {
     text-align: center;
     display: inline;
-    padding: 0.1% 2%;
+    padding: 0.3% 2%;
     border-radius: 20px;
     background-color: rgb(5, 160, 39);
     border: 1px solid black;
@@ -56,7 +57,7 @@ ul {
 }
 
 #menu li a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lobster', cursive;
     color: white;
     font-size: 1em;
 }
@@ -66,7 +67,7 @@ ul {
     border-radius: 20px;
 }
 
-.principalAndroid {
+article {
     width: 90%;
     height: 100%;
     font-size: 32px;
@@ -75,36 +76,62 @@ ul {
     margin: 2% 2em;
 }
 
-.templateAndroid {
-    float: left;
-    margin: 1em 1em;
+article section p {
+    text-align: center;
+    margin-top: 2%;
 }
 
-.templateAndroid img {
-    height: 13em;
-    width: 8em;
+.column {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 33%;
+}
+
+.row {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+
+@media (max-width: 767.98px) {
+    .row {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+}
+
+.row img {
+    height: 10em;
+    width: 90%;
     cursor: pointer;
-    margin: 15px;
 }
 
 .templateAndroid p {
     text-transform: capitalize;
     text-align: center;
     background: yellowgreen;
-    margin: 5px;
-    padding: 10px;
-    color: white;
+    padding: 2%;
+    font-size: 0.8em;
     border-radius: 10px;
+    margin-bottom: 1.5%;
+    color: white;
+}
+
+.templateAndroid p:hover {
+    background-color: rgb(102, 139, 28);
+    transition: 1s;
 }
 
 .footerAndroid {
-    clear: both;
-    background: white;
-    border: 2px solid red;
+    background: rgb(203, 245, 231);
     text-align: center;
-    width: 65%;
-    color: black;
-    border-radius: 15px;
-    margin-left: 17em;
-    font-size: 17px;
+    color: crimson;
+}
+
+footer img {
+    width: 5em;
 }
