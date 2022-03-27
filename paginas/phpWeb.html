@@ -29,7 +29,7 @@
             <li><a href="android.html">Android</a></li>
             <li><a href="c.html">C#</a></li>
             <li><a href="java.html">Java</a></li>
-            <li class=""> <a href="/assets/curriculo/Miguel de Araujo da Silva Curriculo.pdf" class="" target="_blank">Curriculo</a></li>
+
         </ul>
 
 
@@ -39,18 +39,10 @@
 
         <section>
             <p>Portifolio de Aplicativos do Android Studio SDK, clique em uma imagem ou no titulo para acessar o github do projeto :)</p>
-
-            <p class="textoCep">Este é o Web Service de buscar o Cep e achar o endereço desejado, faça um teste!:)
-            </p>
-
-            <p class="textoBiblia">Este é o Web Service da Biblia completa, selecione o livro e capitulo desejado! :)<br> ** se parar de funcionar aguarde uns 5 minutos que a API estara funcionando Novamente</p>
-
-
         </section>
 
         <section id="conteudo" class="templatePhpWeb">
             <p>Cep WebService</p>
-
             <img src="imagensWebService/cepService.png" class="imgCEP" alt="CepWebService" title="CepWebService, clicar aqui se quiser acessar o github" id="CepWebService" onmouseover="Hover('CepWebService','hover')" onmouseout="noHover('CepWebService','nohover')">
         </section>
 
@@ -59,217 +51,6 @@
 
             <img src="imagensWebService/bibliaService.png" class="imgBiblia" alt="BibliaWebService" title="CepWebService, clicar aqui se quiser acessar o github" id="BibliaWebService" onmouseover="Hover('BibliaWebService','hover')" onmouseout="noHover('BibliaWebService','nohover')">
         </section>
-
-
-
-
-
-        <button id="btnVoltar" class="btnVoltarPrincipal" type="button">Voltar</button>
-
-        <!--CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE-->
-        <!--CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE-->
-        <!--CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE-->
-
-        <!--buscar por CEP ------------------------------------------>
-
-        <form id="cepService" class="formCep">
-            <fieldset>
-                <br>
-
-                <b><span style="color: black;">buscar por cep</span></b>
-
-                <br>
-
-                <br>
-                <br>
-                <legend>CEP WebService</legend>
-                <label for="cep">CEP:</label>
-                <input style="display: block;" type="text" id="cep" name="cep" placeholder="Digite o Cep" required>
-
-
-                <br>
-                <br>
-
-                <label for="rua">Logradouro:</label>
-                <input style="display: inline;" type="text" id="rua" name="rua" readonly>
-
-                <label for="bairro">Bairro:</label>
-                <input style="display: inline;" type="text" id="bairro" name="bairro" readonly>
-
-                <label for="local">Localidade:</label>
-                <input style="display: inline;" type="text" id="local" name="local" readonly>
-
-                <label for="uf">UF:</label>
-                <input style="display: inline;" type="text" id="uf" name="uf" readonly>
-
-                <button id="btnBuscar" class="btnBuscarCep" type="button">Buscar</button>
-
-            </fieldset>
-        </form>
-        <!-- fim buscar por cep ------------------------------------------>
-
-
-
-
-
-
-
-
-        <!--buscar por rua ------------------------------------------>
-
-        <form id="cepService2" class="formCep">
-            <fieldset>
-                <br>
-
-                <b><span style="color: black;">buscar por UF, Cidade, Rua</span></b>
-
-                <br>
-
-                <br>
-                <br>
-                <legend>CEP WebService</legend>
-
-
-                <label for="rua">Logradouro:</label>
-                <input type="text" id="rua2" class="" placeholder="digite a Rua" required>
-
-                <label for="local">Localidade:</label>
-                <input type="text" id="local2" class="" name="local" placeholder="digite a Localidade" required>
-
-                <label for="uf">UF:</label>
-                <input type="text" id="uf2" class="" name="uf" placeholder="digite o UF" required>
-
-                <button id="btnBuscar2" class="btnBuscarCep" type="button">Buscar</button>
-
-            </fieldset>
-        </form>
-
-        <!--fim buscar por rua ------------------------------------------>
-        <div id="resultado" class=".todosResultado"></div>
-
-        <!--CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE-->
-        <!--CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE-->
-        <!--CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE,CEPSERVICE-->
-
-
-
-
-
-        <div id="#biblia" class="bibliaTemplate">
-            <select id="livros">
-	<option>selecione um livro...</option>
-	<option value="gn">Genesis</option>
-	<option value="ex">Exodo</option>
-	<option value="lv">Levitico</option>
-	<option value="nm">Numeros</option>
-	<option value="dt">Deuteronômio</option>
-	<option value="js">Josué</option>
-	<option value="jz">Juizes</option>
-	<option value="rt">Rute</option>
-	<option value="1sm">1º Samuel</option>
-	<option value="2sm">2º Samuel</option>
-	<option value="1rs">1º Reis</option>
-	<option value="2rs">2º Reis</option>
-	<option value="1cr">1º Cronicas</option>
-	<option value="2cr">2º Cronicas</option>
-	<option value="ed">Esdras</option>
-	<option value="ne">Neemias</option>
-	<option value="et">Ester</option>
-	<option value="job">Jó</option>
-	<option value="sl">Salmos</option>
-	<option value="pv">Provérbios</option>
-	<option value="ec">Eclesiastes</option>
-	<option value="ct">Cânticos</option>
-	<option value="is">Isaías</option>
-	<option value="jr">Jeremias</option>
-	<option value="lr">Lamentações de Jeremias</option>
-	<option value="ez">Ezequiel</option>
-	<option value="dn">Daniel</option>
-	<option value="os">Oséias</option>
-	<option value="jl">Joel</option>
-	<option value="am">Amós</option>
-	<option value="ob">Obadias</option>
-	<option value="jn">Jonas</option>
-	<option value="mq">Miquéias</option>
-	<option value="na">Naum</option>
-	<option value="hc">Hebacuque</option>
-	<option value="sf">Sofonias</option>
-	<option value="ag">Ageu</option>
-	<option value="zc">Zacarias</option>
-	<option value="ml">Malaquias</option>
-	<option value="mt">Mateus</option>
-	<option value="mc">Marcos</option>
-	<option value="lc">Lucas</option>
-	<option value="jo">João</option>
-	<option value="at">Atos</option>
-	<option value="rm">Romanos</option>
-	<option value="1co">1º Coríntios</option>
-	<option value="2co">2º Coríntios</option>
-	<option value="gl">Gálatas</option>
-	<option value="ef">Efésios</option>
-	<option value="fp">Filipenses</option>
-	<option value="cl">Colossenses</option>
-	<option value="1ts">1º Tessalonicenses</option>
-	<option value="2ts">2º Tessalonicenses</option>
-	<option value="1tm">1º Timóteo</option>
-	<option value="2tm">2º Timóteo</option>
-	<option value="tt">Tito</option>
-	<option value="fm">Filimom</option>
-	<option value="hb">Hebreus</option>
-	<option value="tg">Tiago</option>
-	<option value="1pe">1º Pedro</option>
-	<option value="2pe">2º Pedro</option>
-	<option value="1jo">1º João</option>
-	<option value="2jo">2º João</option>
-	<option value="3jo">3º João</option>
-	<option value="jd">Judas</option>
-	<option value="ap">Apocalipse</option>
-</select>
-
-
-
-            <select id="capitulos">
-	
-</select>
-
-
-
-
-
-
-            <div id="versos"></div>
-
-        </div>
-
-
-
-
-
-        <button id="btnVoltar2" class="btnVoltarPrincipal" type="button">Voltar</button>
-
-
-
-    </article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section>
-
-
-    </section>
-
-
 
 
     </article>

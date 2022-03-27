@@ -5,6 +5,17 @@
     text-decoration: none !important;
 }
 
+* #template,
+* #MenuUl,
+* #cabeca,
+* #main,
+* #menu,
+* #principal,
+* #lateralDireito,
+* #rodape {
+    transition: all 1s linear;
+}
+
 img {
     cursor: pointer;
 }

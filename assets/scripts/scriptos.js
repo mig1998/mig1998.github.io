@@ -41,6 +41,7 @@ function templateSweet() {
 
 
 function templateFire() {
+
     document.getElementById('template').className = 'templateFire text-warning';
 
     document.getElementById('cabeca').style.display = 'none';

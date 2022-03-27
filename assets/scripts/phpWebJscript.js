@@ -13,79 +13,6 @@ function Hover(id, classes) {
 //JQUERY
 
 $(document).ready(function() {
-    //invisivel ao carregar
-    $('.formCep').attr('style', 'display:none;');
-    $('.bibliaTemplate').attr('style', 'display:none;');
-    $('.btnVoltarPrincipal').attr('style', 'display:none;');
-    $('.principalPhpWeb p.textoCep').attr('style', 'display:none;');
-    $('.principalPhpWeb p.textoBiblia').attr('style', 'display:none;');
-
-
-
-
-    //voltar a pagina inicial
-    $('.btnVoltarPrincipal').click(function() {
-        voltarLayout();
-    });
-
-
-
-
-    //butao de voltar 
-    //butao de voltar 
-    //butao de voltar 
-    function voltarLayout() {
-        //servicos
-        $('.formCep').attr('style', 'display:none;');
-        $('.bibliaTemplate').attr('style', 'display:none;');
-
-        //esconde btn
-        $('.btnVoltarPrincipal').attr('style', 'display:none;');
-
-
-        //textos
-        $('#resultado').attr('style', 'display:none;');
-
-
-        $('.principalPhpWeb p').attr('style', 'display:block;');
-        $('.principalPhpWeb p.textoCep').attr('style', 'display:none;');
-        $('.principalPhpWeb p.textoBiblia').attr('style', 'display:none;');
-
-        //img
-        $('.principalPhpWeb section.templatePhpWeb img').attr('style', 'display:block;');
-
-
-
-    }
-
-
-    //abrindo os servicos 
-    //abrindo os servicos 
-    //abrindo os servicos 
-    function abrirServiceCep() {
-        $('.formCep').attr('style', 'display:block');
-        $('.btnVoltarPrincipal').attr('style', 'display:block;');
-        $('.principalPhpWeb p').attr('style', 'display:none;');
-        $('.principalPhpWeb p.textoCep').attr('style', 'display:block;');
-        $('.principalPhpWeb section.templatePhpWeb img').attr('style', 'display:none;');
-
-        $('#resultado').attr('style', 'display:block;');
-
-    }
-
-
-
-
-    function abrirBibliaService() {
-        $('div.bibliaTemplate').attr('style', 'display:block;');
-        $('.btnVoltarPrincipal').attr('style', 'display:block;');
-        $('.principalPhpWeb p').attr('style', 'display:none;');
-        $('.principalPhpWeb p.textoBiblia').attr('style', 'display:block;');
-        $('.principalPhpWeb section.templatePhpWeb img').attr('style', 'display:none;');
-    }
-
-
-
 
     ////// WEB SERVICE DO CEP//////////////////////////////////////
     ////// WEB SERVICE DO CEP//////////////////////////////////////
@@ -96,10 +23,6 @@ $(document).ready(function() {
     //link do webService https://viacep.com.br/
 
     //abrir o servico do Cep
-    $('.principalPhpWeb section.templatePhpWeb img.imgCEP').click(function() {
-        abrirServiceCep();
-    });
-
 
     $('#btnBuscar').click(function() {
         var cep = $('#cep').val();
