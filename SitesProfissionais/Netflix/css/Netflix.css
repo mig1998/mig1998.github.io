@@ -1,31 +1,32 @@
-*{
-	color:white;
+* {
+    color: white;
 }
 
-
-body{
-background:#312e2e;
+body {
+    background: #312e2e;
 }
 
-
-.carousel-item img{
-	width:200px;
-	height:225px;
-	cursor:pointer;
+.carousel-item img {
+    width: 200px;
+    height: 225px;
+    cursor: pointer;
 }
 
-
-.info{
-	width:35%;
-	text-align:center;
+.info {
+    width: 35%;
+    text-align: center;
 }
 
-figure{
-	border:1px solid red;
-	margin-left:20px;
+figure {
+    border: 1px solid red;
+    margin-left: 20px;
 }
 
-figure img{
- height:34em;
- width:100%;
+figure img {
+    height: 34em;
+    width: 100%;
+}
+
+footer img {
+    width: 5em;
 }

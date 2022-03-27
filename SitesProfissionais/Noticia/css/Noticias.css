@@ -1,34 +1,34 @@
-section img{
-	width:300px;
-	height:165px;
+section img {
+    width: 300px;
+    height: 165px;
 }
 
-aside section{
-	border-bottom:1px solid red;
+aside section {
+    border-bottom: 1px solid red;
 }
 
-
-aside img{
-	width:100%;
-	height:165px;
+aside img {
+    width: 100%;
+    height: 165px;
 }
 
-
-
-section p{
-	color:blue;
+section p {
+    color: blue;
 }
 
-section p a{
-	color:green;
+section p a {
+    color: green;
 }
 
-
-li{
-	margin-left:20px;
-	border-right:1px solid blue;
+li {
+    margin-left: 20px;
+    border-right: 1px solid blue;
 }
 
-li:hover{
-	background:green;
+li:hover {
+    background: green;
+}
+
+footer img {
+    width: 5em;
 }
