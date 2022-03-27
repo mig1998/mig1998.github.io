@@ -2,9 +2,9 @@
 <html>
 
 <head>
-    <title>WebServices</title>
+    <title>Biblia-WebService</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="css/phpWebCss.css">
+    <link rel="stylesheet" type="text/css" href="/paginas/css/phpWebCss.css">
 
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
@@ -16,32 +16,37 @@
 <body id="template" class="bodyPhpWeb">
 
     <header id="topo" class="topoPhpWeb">
-        <a href="phpWeb.html">PHP Web Service</a>
+        <a href="phpWeb.html">Web Services</a>
 
     </header>
 
     <nav id="menu" class="menuPhpWeb">
 
 
+     
         <ul id="ul" class="menuUPhpWeb">
-            <li><a href="../index.html">Web</a></li>
-            <li><a href="phpWeb.html">Web Services</a></li>
-            <li><a href="android.html">Android</a></li>
-            <li><a href="c.html">C#</a></li>
-            <li><a href="java.html">Java</a></li>
-
+            <li><a href="../../index.html">Web</a></li>
+            <li><a href="../phpWeb.html">Web Services</a></li>
+            <li><a href="../android.html">Android</a></li>
+            <li><a href="../c.html">C#</a></li>
+            <li><a href="../java.html">Java</a></li>
+            <li class=""> <a href="/assets/curriculo/Miguel de Araujo da Silva Curriculo.pdf" class="" target="_blank">Curriculo</a></li>
         </ul>
 
 
     </nav>
 
-    <article id="principal" class="principalPhpWeb">
+    <article id="principal" class="principalbibliaService">
 
         <section>
-            <p class="textoBiblia">Este é o Web Service da Biblia completa, selecione o livro e capitulo desejado! :)<br> ** se parar de funcionar aguarde uns 5 minutos que a API estara funcionando Novamente</p>
+            <p class="title">Este é o Web Service da Biblia completa, selecione o livro e capitulo desejado! :)<br> ** se parar de funcionar aguarde uns 5 minutos que a API estara funcionando Novamente</p>
         </section>
 
-        <section id="conteudo" class="templatePhpWeb">
+        <section class="btnVoltar">
+            <a href="/paginas/phpWeb.html" class="">Voltar</a>
+    </section>
+
+        <section id="" class="">
 
 
 
@@ -116,6 +121,8 @@
                     <option value="ap">Apocalipse</option>
                 </select>
 
+
+<!--    <select id="livraria"></select> -->
 
 
                 <select id="capitulos"></select>

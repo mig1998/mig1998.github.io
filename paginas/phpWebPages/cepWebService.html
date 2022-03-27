@@ -2,21 +2,21 @@
 <html>
 
 <head>
-    <title>WebServices</title>
+    <title>cep-WebService</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="/paginas/css/phpWebCss.css">
 
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
-    <!-- <script type="text/javascript" src="/assets/scripts/phpWebJscript.js"></script> -->
+    <script type="text/javascript" src="/assets/scripts/phpWebJscript.js"></script>
 
 </head>
 
 
-<body id="template" class="bodyPhpWeb">
+<body id="template" class="cepService">
 
     <header id="topo" class="topoPhpWeb">
-        <a href="phpWeb.html">PHP Web Service</a>
+        <a href="phpWeb.html">Web Services</a>
 
     </header>
 
@@ -26,16 +26,16 @@
         <ul id="ul" class="menuUPhpWeb">
             <li><a href="../../index.html">Web</a></li>
             <li><a href="../phpWeb.html">Web Services</a></li>
-            <li><a href="android.html">Android</a></li>
-            <li><a href="c.html">C#</a></li>
-            <li><a href="java.html">Java</a></li>
+            <li><a href="../android.html">Android</a></li>
+            <li><a href="../c.html">C#</a></li>
+            <li><a href="../java.html">Java</a></li>
             <li class=""> <a href="/assets/curriculo/Miguel de Araujo da Silva Curriculo.pdf" class="" target="_blank">Curriculo</a></li>
         </ul>
 
 
     </nav>
 
-    <article id="principal" class="principalPhpWeb">
+    <article id="principal" class="principalcepService">
 
         <section>
 
@@ -45,8 +45,9 @@
 
 
 
-
-        <a href="/paginas/phpWeb.html" id="btnVoltar" class="btnvoltar">Voltar</a>
+<section class="btnVoltar">
+        <a href="/paginas/phpWeb.html" class="">Voltar</a>
+</section>
 
         <!--buscar por CEP ------------------------------------------>
 
@@ -60,28 +61,16 @@
 
 
 
-                <button id="btnBuscar" class="btnBuscarCep" type="button">Buscar</button>
+                <button id="btnGetCep" class="" type="button">Buscar</button>
 
             </fieldset>
         </form>
         <!-- fim buscar por cep ------------------------------------------>
 
 
-        <div>
-            <p>Rua:</p>
-            <section id="rua"></section>
+        <div id="getCep" class=""></div>
 
-            <p>Bairro:</p>
-            <section id="bairro"></section>
-
-            <p>Localidade:</p>
-            <section id="local"></section>
-
-            <p>UF:</p>
-            <section id="uf"></section>
-        </div>
-
-
+<hr>
 
         <!--buscar por rua ------------------------------------------>
 
@@ -102,13 +91,13 @@
                 <label for="uf">UF:</label>
                 <input type="text" id="uf2" class="" name="uf" placeholder="digite o UF" required>
 
-                <button id="btnBuscar2" class="btnBuscarCep" type="button">Buscar</button>
+                <button id="btnGetAll" class="" type="button">Buscar</button>
             </fieldset>
 
         </form>
 
         <!--fim buscar por rua ------------------------------------------>
-        <div id="resultado" class=".todosResultado"></div>
+        <div id="getAll" class=""></div>
     </article>
 
 

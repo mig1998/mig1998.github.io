@@ -102,6 +102,7 @@ footer img {
 
 header.pageColorGirl p a {
     color: rgb(167, 121, 6);
+    text-shadow: 1px 1px rgb(116, 85, 8);
 }
 
 .bgNavGirl {

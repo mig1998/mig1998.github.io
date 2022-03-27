@@ -16,7 +16,7 @@
 <body id="template" class="bodyPhpWeb">
 
     <header id="topo" class="topoPhpWeb">
-        <a href="phpWeb.html">PHP Web Service</a>
+        <a href="phpWeb.html">Web Services</a>
 
     </header>
 
@@ -35,24 +35,28 @@
 
     </nav>
 
-    <article id="principal" class="principalPhpWeb">
+    <article id="principal" class="principalWebService">
 
-        <section>
+        <section class="titleWebService">
             <p>Portifolio de Aplicativos do Android Studio SDK, clique em uma imagem ou no titulo para acessar o github do projeto :)</p>
         </section>
 
-        <section id="conteudo" class="templatePhpWeb">
-            <p>Cep WebService</p>
-            <img src="imagensWebService/cepService.png" class="imgCEP" alt="CepWebService" title="CepWebService, clicar aqui se quiser acessar o github" id="CepWebService" onmouseover="Hover('CepWebService','hover')" onmouseout="noHover('CepWebService','nohover')">
-        </section>
 
-        <section id="conteudo" class="templatePhpWeb">
-            <p>Biblia WebService</p>
+        <div class="row">
+            <div class="column">
+            <section id="conteudo" class="conteudoWebService">
+               <a href="phpWebPages/cepWebService.html"><p>Cep WebService</p></a>
+                <a href="phpWebPages/cepWebService.html"><img src="imagensWebService/cep.png" class="imgCEP" alt="CepWebService" title="CepWebService, clicar aqui se quiser acessar o github" id="CepWebService" onmouseover="Hover('CepWebService','hover')" onmouseout="noHover('CepWebService','nohover')"></a>
+            </section>
+            </div>
 
-            <img src="imagensWebService/bibliaService.png" class="imgBiblia" alt="BibliaWebService" title="CepWebService, clicar aqui se quiser acessar o github" id="BibliaWebService" onmouseover="Hover('BibliaWebService','hover')" onmouseout="noHover('BibliaWebService','nohover')">
-        </section>
-
-
+            <div class="column">
+            <section id="conteudo" class="conteudoWebService">
+                <a href="phpWebPages/bibliaWebService.html"><p>Biblia WebService</p></a>
+               <a href="phpWebPages/bibliaWebService.html"><img src="imagensWebService/biblia.png" class="imgBiblia" alt="BibliaWebService" title="CepWebService, clicar aqui se quiser acessar o github" id="BibliaWebService" onmouseover="Hover('BibliaWebService','hover')" onmouseout="noHover('BibliaWebService','nohover')"></a>
+            </section>
+            </div>
+        </div>
     </article>
 
 
