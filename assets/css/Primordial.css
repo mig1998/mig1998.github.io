@@ -40,14 +40,15 @@ footer img {
 }
 
 .menuInicial li a:hover {
-    background-color: #89e0e5;
+    background-color: #8a89e5;
 }
 
 
 /* --------fire---------------------------- */
 
 .pageColorFire {
-    background: #ff6600;
+    background: #7e3606;
+    color: rgb(92, 13, 53);
 }
 
 .bgNavFire {
@@ -55,43 +56,68 @@ footer img {
 }
 
 .bgNavFire li a:hover {
-    background: red;
+    background: rgb(155, 92, 33);
 }
 
 .bgFire {
-    background: #7f1717;
+    background: #ca8e52;
+}
+
+.bgFireLateralEsquerdo {
+    background-color: #d39b62;
 }
 
 .templateFire h1,
 .templateFire h4,
 .templateFire h5 {
-    color: orange;
+    color: rgb(65, 4, 95);
+}
+
+.bgFireFooter {
+    background-color: #7e3606;
+}
+
+.bgFireFooter p {
+    color: yellow;
 }
 
 
 /* girls ------------------------------------------*/
 
 .pageColorGirl {
-    background: pink;
+    background: rgb(235, 218, 123);
+    color: rgb(253, 242, 206);
+}
+
+header.pageColorGirl p a {
+    color: rgb(167, 121, 6);
 }
 
 .bgNavGirl {
-    background: white;
-    font-family: Brush Script Std;
+    background-color: darkgoldenrod;
+}
+
+.bgNavGirl li a {
+    color: rgb(248, 248, 164) !important;
 }
 
 .bgNavGirl li a:hover {
-    background-color: pink;
+    background-color: rgb(129, 94, 3);
 }
 
 .bgGirl {
-    background: #93149e;
+    background: rgb(206, 158, 37);
 }
 
 .templateGirl h1,
 .templateGirl h4,
 .templateGirl h5 {
-    color: #0808b4;
+    color: rgb(242, 245, 92);
+    text-shadow: 1px 2px black;
+}
+
+.bgGirlFooter {
+    background-color: darkgoldenrod;
 }
 
 
@@ -99,6 +125,7 @@ footer img {
 
 .pageColorBoy {
     background: white;
+    color: rgb(214, 212, 198);
 }
 
 .bgNavBoy {
@@ -117,4 +144,8 @@ footer img {
 .templateBoy h4,
 .templateBoy h5 {
     color: black;
+}
+
+.bgBoyFooter p {
+    color: rgb(228, 205, 205);
 }

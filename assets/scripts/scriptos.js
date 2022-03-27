@@ -62,10 +62,10 @@ function templateFire() {
     document.getElementById('lateralDireito').style.display = 'none';
 
     document.getElementById('lateralEsquerdo').style.display = 'block';
-    document.getElementById('lateralEsquerdo').className = 'col-md-3 border border-danger bgFire';
+    document.getElementById('lateralEsquerdo').className = 'col-md-3 border border-danger bgFireLateralEsquerdo';
 
     //
-    document.getElementById('rodape').className = 'border border-success clearfix text-center bgFire';
+    document.getElementById('rodape').className = 'border border-success text-center bgFireFooter';
 
 
     let Menu = document.querySelectorAll('#MenuUl li a');
@@ -94,7 +94,7 @@ function templateGirls() {
     // 
     document.getElementById('menu').className = 'navbar navbar-expand-lg navbar-dark pageColorGirl';
 
-    document.getElementById('MenuUl').className = 'navbar-nav m-auto  pt-2 pb-2 pr-4 pl-4 border rounded-pill border-primary bgNavGirl ';
+    document.getElementById('MenuUl').className = 'navbar-nav m-auto  pt-2 pb-2 pr-4 pl-4 border rounded-pill bgNavGirl';
 
 
 
@@ -116,7 +116,7 @@ function templateGirls() {
     document.getElementById('lateralDireito').className = 'col-md-2 border border-danger rounded bgGirl';
 
     //
-    document.getElementById('rodape').className = 'border border-success rounded text-center bgGirl';
+    document.getElementById('rodape').className = 'border border-success rounded text-center bgGirlFooter';
 
 
 
@@ -127,7 +127,7 @@ function templateGirls() {
     let Menu = document.querySelectorAll('#MenuUl li a');
 
     for (let i = 0; i <= Menu.length; i++) {
-        Menu[i].className = 'nav-link text-primary rounded-pill';
+        Menu[i].className = 'nav-link bgNavGirl rounded-pill';
     }
 
 
@@ -172,18 +172,18 @@ function templateBoys() {
     document.getElementById('lateralDireito').className = 'col-md-2 border border-danger rounded bgBoy';
 
     //
-    document.getElementById('rodape').className = 'border border-success rounded text-center bg-dark';
+    document.getElementById('rodape').className = 'border border-success rounded text-center bg-dark bgBoyFooter';
 
 
 
 
-    document.querySelector('#MenuUl li').className = 'nav-item active mr-2 border rounded-pill bgBoy ';
+    document.querySelector('#MenuUl li').className = 'nav-item active mr-2 border rounded-pill bgBoy';
 
 
     let Menu = document.querySelectorAll('#MenuUl li a');
 
     for (let i = 0; i <= Menu.length; i++) {
-        Menu[i].className = 'nav-link text-primary rounded-pill';
+        Menu[i].className = 'nav-link text-light rounded-pill';
     }
 
 
