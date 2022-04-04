@@ -9,7 +9,7 @@ function templateSweet() {
     // 
     document.getElementById('menu').className = 'navbar navbar-expand-lg navbar-dark bgNavInicial';
     document.getElementById('MenuUl').className = 'menuInicial navbar-nav m-auto  pt-2 pb-2 pr-4 pl-4 border rounded-pill border-primary colorUlInicial';
-    document.querySelector('#MenuUl li').className = 'nav-item active mr-2 border rounded-pill bg-danger ';
+    document.querySelector('#MenuUl li').className = 'nav-item active mr-2 ';
     // 
 
 
@@ -26,14 +26,14 @@ function templateSweet() {
 
 
     // 
-    document.getElementById('rodape').className = 'border border-success text-center bg-light';
+    document.getElementById('rodape').className = 'border border-success text-center bgfooterInicial';
 
 
 
     let Menu = document.querySelectorAll('#MenuUl li a');
 
     for (let i = 0; i <= Menu.length; i++) {
-        Menu[i].className = 'nav-link text-warning rounded-pill';
+        Menu[i].className = 'nav-link rounded-pill';
     }
 
 }
@@ -122,7 +122,7 @@ function templateGirls() {
 
 
 
-    document.querySelector('#MenuUl li').className = 'nav-item active mr-2 border rounded-pill bgGirl';
+    document.querySelector('#MenuUl li').className = 'nav-item active mr-2';
 
 
     let Menu = document.querySelectorAll('#MenuUl li a');
@@ -178,13 +178,13 @@ function templateBoys() {
 
 
 
-    document.querySelector('#MenuUl li').className = 'nav-item active mr-2 border rounded-pill bgBoy';
+    document.querySelector('#MenuUl li').className = 'nav-item active mr-2';
 
 
     let Menu = document.querySelectorAll('#MenuUl li a');
 
     for (let i = 0; i <= Menu.length; i++) {
-        Menu[i].className = 'nav-link text-light rounded-pill';
+        Menu[i].className = 'nav-link text-white rounded-pill';
     }
 
 

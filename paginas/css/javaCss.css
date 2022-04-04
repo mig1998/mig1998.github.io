@@ -16,8 +16,7 @@
 }
 
 body {
-    background: linear-gradient(rgb(154, 228, 228), cyan, rgb(62, 116, 138)) no-repeat;
-    background-size: cover;
+    background:rgb(227, 255, 248);
     color: grey;
     margin: auto;
 }

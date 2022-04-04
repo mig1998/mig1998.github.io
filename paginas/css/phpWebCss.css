@@ -29,12 +29,12 @@ body {
 }
 
 .topoPhpWeb a {
-    color: rgb(25, 0, 255);
+    color: rgb(95, 78, 251);
 }
 
 #menu ul {
     text-align: center;
-    background: blue;
+    background: rgb(78, 78, 202);
     padding: 0.9%;
 }
 
@@ -48,20 +48,26 @@ body {
 nav#menu ul li a {
     color: lightcyan;
     padding: 0.9% 2%;
-    background-color: darkblue;
+    background-color: rgb(29, 29, 151);
 }
+
+
+nav#menu li a:hover {
+    background-color: rgb(0, 183, 255);
+}
+
 
 
 .principalWebService{
     height: 100%;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(236, 251, 255);
     margin: 3% 3em;
 }
 
 
 .titleWebService{
-    color:blue;
+    color:rgb(44, 29, 82);
     font-size: 2em;
 }
 
@@ -112,9 +118,6 @@ background-color: rgb(51, 5, 83);
 
 
 
-nav#menu li a:hover {
-    background-color: rgb(0, 183, 255);
-}
 
 
 
@@ -225,14 +228,13 @@ input {
 
 /*Comeco BibliaService*/
 .principalbibliaService{
-    background-color: cyan;
+    background-color:  rgb(236, 251, 255);
     text-align: center;
     margin-top: 2%;
 }
 .title{
 font-size: 2em;
-color: rgb(152, 140, 194);
-text-shadow: 1px 1px black;
+color:  color:rgb(44, 29, 82);
 
 }
 

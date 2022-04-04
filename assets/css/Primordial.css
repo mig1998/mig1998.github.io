@@ -33,7 +33,7 @@ footer img {
 /* page Inicial------------------------------------ */
 
 .pageColorInicial {
-    background-color: #89e0e5;
+    background-color: #ffffff;
 }
 
 .bgNavInicial {
@@ -45,15 +45,23 @@ footer img {
 }
 
 .templateInicial h1,
-.templateInicial h4,
 .templateInicial h5 {
-    color: red;
+color:red;
+}
+
+
+.menuInicial li a {
+    color: rgb(255, 255, 255) !important;
 }
 
 .menuInicial li a:hover {
     background-color: #8a89e5;
 }
 
+.bgfooterInicial{
+    background-color: darkblue;
+  color: white;
+}
 
 /* --------fire---------------------------- */
 
@@ -96,8 +104,8 @@ footer img {
 /* girls ------------------------------------------*/
 
 .pageColorGirl {
-    background: rgb(235, 218, 123);
-    color: rgb(253, 242, 206);
+    background: rgb(244, 232, 165);
+    color: rgb(0, 0, 0);
 }
 
 header.pageColorGirl p a {
@@ -106,7 +114,7 @@ header.pageColorGirl p a {
 }
 
 .bgNavGirl {
-    background-color: darkgoldenrod;
+    background-color: rgb(196, 154, 46);
 }
 
 .bgNavGirl li a {
@@ -118,7 +126,7 @@ header.pageColorGirl p a {
 }
 
 .bgGirl {
-    background: rgb(206, 158, 37);
+    background: rgb(227, 183, 71);
 }
 
 .templateGirl h1,
@@ -137,7 +145,7 @@ header.pageColorGirl p a {
 
 .pageColorBoy {
     background: white;
-    color: rgb(214, 212, 198);
+    color: rgb(255, 255, 255);
 }
 
 .bgNavBoy {

@@ -3,7 +3,7 @@
 * {
     text-decoration: none !important;
     list-style: none;
-    font-family: 'Spartan', sans-serif;
+   
 }
 
 .hover {
@@ -18,8 +18,10 @@
 
 .bodyAndroid {
     background-size: cover;
-    color: white;
+    color:rgb(29, 0, 33);
     margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px black;
     text-align: center;
 }
 
@@ -27,12 +29,12 @@
     text-align: center;
     font-size: 4em;
     text-shadow: 1px 1px black;
-    font-family: Arial;
+    font-family: 'lobster', sans-serif;
     cursor: pointer;
 }
 
 .topoAndroid a {
-    font-family: 'Lobster', cursive;
+
     color: greenyellow;
 }
 
@@ -57,7 +59,7 @@
 }
 
 #menu li a {
-    font-family: 'Lobster', cursive;
+    font-family: 'lobster', sans-serif;
     color: white;
     font-size: 1em;
 }
@@ -71,9 +73,10 @@ article {
     width: 90%;
     height: 100%;
     font-size: 32px;
-    background: blue;
+    background: rgb(219, 247, 225);
     border-radius: 10px;
     margin: 2% 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 article section p {
@@ -115,10 +118,14 @@ article section p {
     text-align: center;
     background: yellowgreen;
     padding: 2%;
+    width: 90%;
+    margin: 3%  auto;
     font-size: 0.8em;
     border-radius: 10px;
     margin-bottom: 1.5%;
     color: white;
+    border: 1px solid black;
+    font-family: 'lobster', sans-serif;
 }
 
 .templateAndroid p:hover {
@@ -129,7 +136,9 @@ article section p {
 .footerAndroid {
     background: rgb(203, 245, 231);
     text-align: center;
-    color: crimson;
+    font-family: 'Spartan', sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
 }
 
 footer img {
