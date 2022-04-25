@@ -12,37 +12,12 @@
 
     <!-- bootstrap 5 -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-
-
-    <style>
-        .menuPort li a {
-            color: white !important;
-            padding: 5px 10px;
-            border-radius: 10em;
-        }
-
-        .menuPort li a:hover {
-            background-color: rgb(66, 66, 170);
-        }
-
-
-        .eu {
-            width: 20%;
-            height: 20%;
-            border-radius: 3em;
-
-        }
-
-        .tec img {
-            width: 20%;
-            height: 25%;
-            margin: 2%;
-        }
-    </style>
-
+    <link rel="stylesheet" href="assets/css/inicio.css">
     <link rel="stylesheet" type="text/css" href="assets/css/Primordial.css">
 
     <script type="text/javascript" src="assets/scripts/scriptos.js"></script>
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 
 
@@ -104,48 +79,59 @@
         Apresentacao
         quem sou
 
-        experiencias
+        Skills
 
 
-
-        <article class="cointainer-fluid">
+        <!-- sobre mim -->
+        <article class="">
 
             <div class="text-end me-5">
                 <img class="eu" src="assets/imgs/tecnologias/eu.png" alt="">
             </div>
-            <h1 class="text-center">Conhecimentos</h1>
 
-            <section class="row justify-content-center">
-
-
-
-                <section class="tec col-md-6">
-                    <img src="assets/imgs/tecnologias/html.png" alt="">
-                    <img src="assets/imgs/tecnologias/css3.png" alt="">
-                    <img src="assets/imgs/tecnologias/bootstrap.png" alt="">
-                    <img src="assets/imgs/tecnologias/js.png" alt="">
-                    <img src="assets/imgs/tecnologias/angular.png" alt="">
-                    <img src="assets/imgs/tecnologias/ts.png" alt="">
-                </section>
-
-                <section class="tec col-md-6">
+            <h1 class="text-center">Skills</h1>
+            <!-- skills -->
+            <section class="tec text-center">
+                <img src="assets/imgs/tecnologias/html.png" alt="">
+                <img src="assets/imgs/tecnologias/css3.png" alt="">
+                <img src="assets/imgs/tecnologias/bootstrap.png" alt="">
+                <img src="assets/imgs/tecnologias/js.png" alt="">
+                <img src="assets/imgs/tecnologias/angular.png" alt="">
+                <img src="assets/imgs/tecnologias/ts.png" alt="">
+                <img src="assets/imgs/tecnologias/photoshop.png" alt="">
+                <section>
                     <img src="assets/imgs/tecnologias/android.png" alt="">
                     <img src="assets/imgs/tecnologias/mysql.png" alt="">
                     <img src="assets/imgs/tecnologias/java.png" alt="">
                     <img src="assets/imgs/tecnologias/spring.png" alt="">
-                    <img src="assets/imgs/tecnologias/photoshop.png" alt="">
                 </section>
             </section>
+
+
         </article>
 
+        <!-- projects -->
+        <article></article>
         contato
 
+
+        <!-- Use it like any other HTML element -->
+        <model-viewer bounds="tight" enable-pan src="Ashe.glb" ar ar-modes="scene-viewer webxr quick-look"
+            camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1" 
+            camera-orbit="213.2deg 87.41deg auto">
+
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+   
+        </model-viewer>
 
 
     </main>
 
 
     <script src="assets/bootstrap/js/bootstrap.js"></script>
+
 </body>
 
 
