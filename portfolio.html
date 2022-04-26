@@ -12,8 +12,11 @@
 
     <!-- bootstrap 5 -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/inicio.css">
+
     <link rel="stylesheet" type="text/css" href="assets/css/Primordial.css">
+    <link rel="stylesheet" href="assets/css/inicio.css">
+
+
 
     <script type="text/javascript" src="assets/scripts/scriptos.js"></script>
 
@@ -76,18 +79,28 @@
 
     <main class="text-light">
 
-        Apresentacao
-        quem sou
-
-        Skills
 
 
         <!-- sobre mim -->
-        <article class="">
+        <article class="container-fluid">
 
-            <div class="text-end me-5">
-                <img class="eu" src="assets/imgs/tecnologias/eu.png" alt="">
+            <div class="row ">
+
+                <div id="divMyText" onmouseover="mudaText()" class="col-md-7 text-center">
+
+                </div>
+
+                <div class="col-md-5 ms-auto">
+
+                    <!-- <img class="eu" src="assets/imgs/tecnologias/eu.png" alt=""> -->
+                    <!-- Use it like any other HTML element -->
+                    <model-viewer bounds="tight" enable-pan src="BASEmodel.glb" ar
+                        ar-modes="webxr scene-viewer quick-look" environment-image="neutral" shadow-intensity="1"
+                        camera-controls enable-pan autoplay camera-orbit="-136.2deg 56.08deg">
+                </div>
+
             </div>
+
 
             <h1 class="text-center">Skills</h1>
             <!-- skills -->
@@ -111,26 +124,213 @@
         </article>
 
         <!-- projects -->
-        <article></article>
-        contato
+        <article class="container-fluid mt-5">
+
+            <p class="h1 text-center">Projetos</p>
+
+            <nav class="nav  justify-content-center d-flex">
+                <li class="nav-item">
+                    <a class="nav-link active" id="layouts-tab" href="#layouts"
+                        onclick="changeSection('layouts')">Layouts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="consumo-tab" href="#consumo" onclick="changeSection('consumo')">API'S</a>
+                </li>
+                <li class=" nav-item">
+                    <a class="nav-link" id="android-tab" href="#android" onclick="changeSection('android')">Android</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="c-tab" href="#c" onclick="changeSection('c')">C#</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="java-tab" href="#java" onclick="changeSection('java')">Java</a>
+                </li>
+            </nav>
 
 
-        <!-- Use it like any other HTML element -->
-        <model-viewer bounds="tight" enable-pan src="Ashe.glb" ar ar-modes="scene-viewer webxr quick-look"
-            camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1" 
-            camera-orbit="213.2deg 87.41deg auto">
 
-            <div class="progress-bar hide" slot="progress-bar">
-                <div class="update-bar"></div>
+
+
+            <div class="container-fluid">
+
+                <div class="tab-pane fade show active" style="display: block;" id="layouts">
+
+
+                    <img class="rounded w-25 ms-md-5  comHover" src="assets/imgs/TemplateSweetFullNew2.png" id=""
+                        onclick="templateSweet()" />
+
+                    <img class="rounded w-25 ms-md-5  comHover" src="assets/imgs/FirestormScreenNew2.png" id=""
+                        onclick="templateFire()" />
+
+                    <img class="rounded w-25 ms-md-5  comHover" src="assets/imgs/GirlScreenNew2.png" id=""
+                        onclick="templateGirls()" />
+
+                    <img class="rounded w-25 ms-md-5  mt-3 comHover" src="assets/imgs/BoyScreenNew2.png" id=""
+                        onclick="templateBoys()" />
+                </div>
+
+
+
+
+
+
+
+
+                <!-- web consumo -->
+                <div id="consumo" style="display:none;" onclick="changeSection('consumo')">
+
+                    <section class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="paginas/imagensWebService/cep.png" class="imgCEP" alt="CepWebService"
+                                title="CepWebService, clicar aqui se quiser acessar o github" id="CepWebService">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+                    <section id="conteudo" class="conteudoWebService">
+                        <a href="paginas/phpWebPages/bibliaWebService.html">
+                            <p>Biblia WebService</p>
+                        </a>
+                        <a href="paginas/phpWebPages/bibliaWebService.html"><img
+                                src="paginas/imagensWebService/biblia.png" class="imgBiblia" alt="BibliaWebService"
+                                title="CepWebService, clicar aqui se quiser acessar o github" id="BibliaWebService"
+                                onmouseover="Hover('BibliaWebService','hover')"
+                                onmouseout="noHover('BibliaWebService','nohover')"></a>
+                    </section>
+
+                </div>
+
+
+
+                <!-- android -->
+                <div id="android" style="display: none;">
+                    <div class="row">
+                        <section class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+
+
+                <!-- C# -->
+                <div style="display: none;" id="c">
+                    <div class="row">
+                        <section class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+
+
+
+                <!-- java -->
+                <div style="display: none;" id="java">
+                    <div class="row">
+                        <section class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
             </div>
-   
-        </model-viewer>
 
+
+
+        </article>
+     
+
+        <aside>
+            a?
+            
+        </aside>
+
+
+        <footer>
+
+        </footer>
 
     </main>
 
 
+
     <script src="assets/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/scripts/inicio.js"></script>
 
 </body>
 
