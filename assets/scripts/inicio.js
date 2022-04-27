@@ -52,12 +52,10 @@ function changeText() {
 
         });
 
-
-
-
     }
-
 }
+
+
 
 
 function changeSection(section) {
@@ -68,13 +66,19 @@ function changeSection(section) {
         session.style.display = 'block';
     }
 
-
     switch (session.id) {
         case 'layouts':
             sectionApi.style.display = 'none';
             sectionAndroid.style.display = 'none';
             sectionc.style.display = 'none';
             sectionJava.style.display = 'none';
+            document.getElementById('layouts-tab').style.background='#805380';
+
+
+            document.getElementById('consumo-tab').style.background='';
+            document.getElementById('android-tab').style.background='';
+            document.getElementById('c-tab').style.background='';
+            document.getElementById('java-tab').style.background='';
             break;
 
         case 'consumo':
@@ -82,6 +86,13 @@ function changeSection(section) {
             sectionAndroid.style.display = 'none';
             sectionc.style.display = 'none';
             sectionJava.style.display = 'none';
+            document.getElementById('consumo-tab').style.background='#805380';
+
+
+            document.getElementById('layouts-tab').style.background='';
+            document.getElementById('android-tab').style.background='';
+            document.getElementById('c-tab').style.background='';
+            document.getElementById('java-tab').style.background='';
             break;
 
         case 'android':
@@ -89,6 +100,13 @@ function changeSection(section) {
             sectionApi.style.display = 'none';
             sectionc.style.display = 'none';
             sectionJava.style.display = 'none';
+            document.getElementById('android-tab').style.background='#805380';
+
+
+            document.getElementById('layouts-tab').style.background='';
+            document.getElementById('consumo-tab').style.background='';
+            document.getElementById('c-tab').style.background='';
+            document.getElementById('java-tab').style.background='';
             break;
 
 
@@ -97,6 +115,14 @@ function changeSection(section) {
             sectionApi.style.display = 'none';
             sectionAndroid.style.display = 'none';
             sectionJava.style.display = 'none';
+            document.getElementById('c-tab').style.background='#805380';
+
+
+            document.getElementById('layouts-tab').style.background='';
+            document.getElementById('consumo-tab').style.background='';
+            document.getElementById('android-tab').style.background='';
+            document.getElementById('java-tab').style.background='';
+
             break;
 
 
@@ -105,13 +131,17 @@ function changeSection(section) {
             sectionApi.style.display = 'none';
             sectionAndroid.style.display = 'none';
             sectionc.style.display = 'none';
-            break;
+            document.getElementById('java-tab').style.background='#805380';
 
+
+            document.getElementById('layouts-tab').style.background='';
+            document.getElementById('consumo-tab').style.background='';
+            document.getElementById('android-tab').style.background='';
+            document.getElementById('c-tab').style.background='';
+
+            break;
     }
 
-
 }
-
-
 
 

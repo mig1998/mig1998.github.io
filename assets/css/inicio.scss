@@ -1,61 +1,155 @@
-.menuPort li a {
-    color: white !important;
-    padding: 5px 10px;
-    border-radius: 10em;
-  }
-  
-  .menuPort li a:hover {
-    background-color: rgb(66, 66, 170);
-  }
-  
-  
-  .eu {
-    width: 20%;
-    height: 20%;
-    border-radius: 3em;
-  
-  }
-  
-  .tec img {
-    width: 8%;
-    height: 13%;
-    margin: 2%;
-  }
 
-  model-viewer{
 
-    width: 25em;
-    height: 400px;
 
- 
-  }
-  
-.myText{
+* {
+  list-style: none !important;
+  text-decoration: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+
+.eu {
+  width: 20%;
+  height: 20%;
+  border-radius: 3em;
+
+}
+
+.tec img {
+  width: 8%;
+  height: 13%;
+  margin: 2%;
+}
+
+
+model-viewer {
+  width: 25em;
+  height: 400px;
+}
+
+
+#divMyText {
   margin-top: 15%;
 }
 
 
+.backgroundTitulo {
+  background-color: rgba(0, 0, 0, 0.585);
+  color: lightgreen;
 
-  .nav{
+}
 
-    li{
-      margin: 1%;
-    }
 
-    li a{
-      color: white;
-    }
 
-    li a:hover{
-  background-color: blue;
-  color: white;
-  border-radius: 2em;
-    }
-
-    
-
-  
-    
+#consumo,
+#android,
+#c,
+#java {
+  div {
+    margin-right: 2%;
   }
-  
+
+  h4 {
+    color: lightgreen;
+    padding: 0;
+    margin: 0;
+  }
+
+  p {
+    color: yellowgreen;
+  }
+
+
+  img {
+    border-radius: 1em;
+    box-shadow: 0px 0px 1em 0 rgb(0, 0, 0);
+    margin-bottom: 5%;
+  }
+
+}
+
+
+
+.backgroundProject {
+  background-color: #0000007d;
+  border-radius: 2em;
+}
+
+
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.245);
+  margin: auto;
+  width: 50%;
+
+  li {
+    margin: 1%;
+  }
+
+  li a {
+    color: white;
+    border-radius: 2em;
+
+    &:hover {
+      background: mix(blue, orange, 50%);
+      color: white;
+      border-radius: 2em;
+    }
+  }
+
+}
+
+
+
+.menu {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.552);
+  height: 100%;
+  left: 0;
+  width: 7.1em;
+  z-index: 100;
+
+
+
+
+  ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+
+  li {
+    margin: 40% 2% 2% 2%;
+    padding: 50% 10% 0 0;
+  }
+
+
+
+  li a {
+    color: lightgreen;
+
+
+    &:hover {
+      padding: 10%;
+      background: mix(blue, orange, 50%);
+    }
+  }
+
+
+  h6 {
+    color: lightgreen;
+  }
+
+
+  div {
+    margin-top: 3em;
+  }
+
+}
+
+
+
+
 /*# sourceMappingURL=inicio.scss.map */
