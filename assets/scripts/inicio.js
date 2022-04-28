@@ -14,7 +14,10 @@ var sectionJava = document.getElementById("java")
 
 
 
-const sou = "Ola, ,s,o,u, ,M,i,g,u,e,l,<br> ,e,u, ,S,o,u, ,D,e,s,e,n,v,o,l,v,e,d,o,r";
+
+const sou = "Olá ,s,o,u ,M,i,g,u,e,l, Eu ,S,o,u <br>,D,e,s,e,n,v,o,l,v,e,d,o,r Full ,S,t,a,c,k"+
+"<br>tenho ,24 anos, e sou, for,m,a,d,o, em <br>A,n,á,l,i,s,e, e ,D,e,s,e,n,v,o,l,v,i,m,e,n,t,o, de ,S,i,s,t,e,m,a,s"+
+"<br>";
 
 const color = ['lightgreen', 'yellowgreen', 'green'];
 
@@ -29,7 +32,7 @@ for (let i = 0; i < arraysou.length; i++) {
 
     let num = Math.floor(Math.random() * color.length);
 
-    var myText = document.createElement('h2')
+    var myText = document.createElement('h3')
     myText.innerHTML = letra;
     myText.id = "myText" + i;
     myText.style.display = 'inline';

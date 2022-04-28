@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
-    <title>Miguel Araujo Portfolio</title>
-
     <meta charset="utf-8">
     <meta name="description" content="Portfolio de Miguel Araujo, contem todos os projetos produzidos">
 
@@ -16,143 +14,508 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 
 
-    <link rel="stylesheet" type="text/css" href="assets/css/Primordial.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/inicio.css">
 
-    <script type="text/javascript" src="assets/scripts/scriptos.js"></script>
 
+    <!-- <script type="text/javascript" src="assets/scripts/scriptos.js"></script> -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 
 
 
 
-<body id="template" class="templateInicial">
-    <!-- header aa-->
-    <header id="cabeca" class="">
-        <p class="text-center p-3 "><a href="index.html" style="text-decoration:none;" class="display-3">Web</a></p>
-    </header>
+<body class="bg-dark">
 
-    <!-- navegacao -->
-    <main id="main" class="pageColorInicial ">
+    <!-- <video autoplay loop poster="../../assets/video/fundo.png" width="" class="bg-video" type="video/mp4">
+        <source src="assets/video/luz4.mp4">
+    </video> -->
 
-        <nav id="menu" class="navbar navbar-expand-lg navbar-dark bgNavInicial ">
+    <video autoplay muted loop poster="" width="" id="myvideo" class="bg-video" type="video/mp4">
+        <source id="srcVideo" src="assets/video/luz4.mp4">
+    </video>
+    <script> document.getElementById('myvideo').play();</script>
 
 
+    <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="SitesProfissionais/Netflix/Netflix.html">Netflix</a></li>
+        <li><a class="dropdown-item" href="SitesProfissionais/Restaurante/Restaurante.html">Restaurante</a>
+        </li>
+        <li><a class="dropdown-item" href="SitesProfissionais/Spotify/Spotify.html">Spotify</a></li>
+        <li><a class="dropdown-item" href="SitesProfissionais/Noticia/Noticias.html">Noticias</a></li>
+        <li><a class="dropdown-item" href="SitesProfissionais/Designer/Design.html">Designer</a></li>
+    </ul> -->
 
-            <button class="navbar-toggler" data-bs-toggle="collapse" type="button" data-toggle="collapse" href="#navegacao">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-            <div id="navegacao" class="collapse navbar-collapse text-center">
+    <nav class="menu">
 
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                          Portfolios
-                     </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="SitesProfissionais/Netflix/Netflix.html">Netflix</a></li>
-                        <li><a class="dropdown-item" href="SitesProfissionais/Restaurante/Restaurante.html">Restaurante</a></li>
-                        <li><a class="dropdown-item" href="SitesProfissionais/Spotify/Spotify.html">Spotify</a></li>
-                        <li><a class="dropdown-item" href="SitesProfissionais/Noticia/Noticias.html">Noticias</a></li>
-                        <li><a class="dropdown-item" href="SitesProfissionais/Designer/Design.html">Designer</a></li>
-                    </ul>
+        <ul>
+            <li><a href="#sobremim">Sobre Mim</a></li>
+
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#projetos">Projetos</a></li>
+
+            <li> <a href="assets/curriculo/Miguel de Araujo da Silva Curriculo.pdf" target="_blank">Curriculo</a></li>
+            <div>
+                <hr class="bg-white">
+                <h6 class="">Redes Sociais</h6>
+                <a class="" href="https://github.com/mig1998?tab=repositories" target="_blank"><img
+                        src="assets/icons/gitHUB.png" width="50"></a>
+                <a href="https://www.linkedin.com/in/miguelaraujo98/" target="_blank"><img
+                        src="assets/icons/linkedin.png" width="50"></a>
+            </div>
+        </ul>
+
+    </nav>
+
+
+    <main class="text-light">
+
+        <!-- sobre mim -->
+        <article class="container-fluid" id="sobremim">
+            <h1 class="text-center backgroundTitulo">Sobre Mim</h1>
+            <div class="row ">
+
+
+                <div id="divMyText" onmouseover="changeText()" class="col-md-7 text-center ">
+
                 </div>
 
-                <ul id="MenuUl" class="menuInicial navbar-nav m-auto  pt-2 pb-2 pr-4 pl-4 border rounded-pill border-primary colorUlInicial">
+                <div class="col-md-5 ms-auto">
 
-                    <li class="nav-item active mr-2"><a href="index.html" class="nav-link rounded-pill">Web</a></li>
 
-                    
-                	<li class="nav-item mr-2 "><a href="paginas/phpWeb.html " class="nav-link  rounded-pill ">WebServices</a></li>
+                    <!-- <img class="eu" src="assets/imgs/tecnologias/eu.png" alt=""> -->
+                    <!-- Use it like any other HTML element -->
+                    <model-viewer bounds="tight" enable-pan src="computer.glb" ar
+                        ar-modes="webxr scene-viewer quick-look" environment-image="neutral" shadow-intensity="1"
+                        camera-controls enable-pan autoplay camera-orbit="-136.2deg 56.08deg">
 
-                	<li class="nav-item mr-2 "><a href="paginas/android.html " class="nav-link  rounded-pill ">Android</a></li>
 
-                    <li class="nav-item mr-2 "><a href="paginas/c.html" class="nav-link  rounded-pill ">C#</a></li>
+                </div>
 
-	                <li class="nav-item mr-2 "><a href="paginas/java.html " class="nav-link  rounded-pill ">Java</a>
 
-                        <li class="nav-item mr-2 "> <a href="assets/curriculo/Miguel de Araujo da Silva Curriculo.pdf" class="nav-link  rounded-pill" target="_blank">Curriculo</a></li>
 
-                </ul>
 
+            </div>
+
+            <div class="mt-5">
+                <h1 class="text-center backgroundTitulo">Skills</h1>
+                <!-- skills -->
+                <section id="skills" class="tec text-center">
+                    <img src="assets/imgs/tecnologias/html.png" alt="">
+                    <img src="assets/imgs/tecnologias/css3.png" alt="">
+                    <img src="assets/imgs/tecnologias/bootstrap.png" alt="">
+                    <img src="assets/imgs/tecnologias/js.png" alt="">
+                    <img src="assets/imgs/tecnologias/json.png" alt="">
+                    <img src="assets/imgs/tecnologias/api.png" alt="">
+                    <img src="assets/imgs/tecnologias/angular.png" alt="">
+                    <img src="assets/imgs/tecnologias/ts.png" alt="">
+
+                    <section>
+                        <img src="assets/imgs/tecnologias/c.png" alt="">
+                        <img src="assets/imgs/tecnologias/android.png" alt="">
+                        <img src="assets/imgs/tecnologias/mysql.png" alt="">
+                        <img src="assets/imgs/tecnologias/sql.png" alt="">
+                        <img src="assets/imgs/tecnologias/java.png" alt="">
+                        <img src="assets/imgs/tecnologias/spring.png" alt="">
+                        <img src="assets/imgs/tecnologias/photoshop.png" alt="">
+                    </section>
+                </section>
             </div>
-        </nav>
+
+        </article>
+
+        <!-- projects -->
+        <article id="projetos" class="container-fluid text-center mt-5">
+
+            <p class="h1 backgroundTitulo">Projetos</p>
+
+
+            <!-- menu de projetos -->
+            <nav class="nav  justify-content-center d-flex">
+                <li class="nav-item">
+                    <a class="nav-link active" id="layouts-tab" href="#layouts"
+                        onclick="changeSection('layouts')">Paginas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="consumo-tab" href="#consumo" onclick="changeSection('consumo')">API'S</a>
+                </li>
+                <li class=" nav-item">
+                    <a class="nav-link" id="android-tab" href="#android" onclick="changeSection('android')">Android</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="c-tab" href="#c" onclick="changeSection('c')">C#</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="java-tab" href="#java" onclick="changeSection('java')">Java</a>
+                </li>
+            </nav>
 
 
 
-        <div class="container-fluid">
-            <div class="row">
-                <aside id="lateralEsquerdo" style="display:none;" class="col-md-4 border border-danger rounded bg-white">
-                    <h5 class="text-md-center">Templates</h5>
-                    <p class="lead">orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a diam gravida, scelerisque mi ut, gravida dui. Vivamus sit amet nibh ac metus pellentesque viverra quis sit amet lacus. Nam a tristique nisi.</p>
 
-                    <section onclick="" id=" " class="">
 
-                        <img class="rounded w-75 ms-md-5 mb-md-5  comHover" src="assets/imgs/FirestormScreenNew2.png" id="" onclick="templateFire()">
-                        <img class="rounded w-75 ms-md-5 mb-md-5  comHover" src="assets/imgs/BoyScreenNew2.png" id="" onclick="templateBoys()">
-                        <img class="rounded w-75 ms-md-5 mb-md-5  comHover" src="assets/imgs/TemplateSweetFullNew2.png" id="" onclick="templateSweet()">
+            <div class="container-fluid">
+
+
+                <!-- layouts -->
+                <div class="container-fluid text-center" style="display: block;" id="layouts">
+
+                    <!-- clones -->
+                    <h4 class="h1">Clones</h4>
+                    <section class="row text-center mt-3 justify-content-center">
+
+
+                        <div class="backgroundProject" style="width: 40%;">
+                            <a href="SitesProfissionais/Netflix/Netflix.html" target="_blank">
+                                <h4 class="">Netflix Clone</h4>
+
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/html.png" alt="">
+                                    <img src="assets/imgs/tecnologias/css3.png" alt="">
+                                    <img src="assets/imgs/tecnologias/bootstrap.png" alt="">
+                                    <img src="assets/imgs/tecnologias/js.png" alt="">
+                                </div>
+
+                                <img class="" src="assets/projetos/imagensPaginas/netflixclone.png"
+                                    title="Netflix clone, clicar aqui se quiser acessar o github" width="100%"
+                                    height="280px">
+                            </a>
+                        </div>
+                        <div class="backgroundProject" style="width: 40%;">
+                            <a href="SitesProfissionais/Spotify/Spotify.html" target="_blank">
+                                <h4 class="">Spotify Clone</h4>
+
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/html.png" alt="">
+                                    <img src="assets/imgs/tecnologias/css3.png" alt="">
+                                    <img src="assets/imgs/tecnologias/bootstrap.png" alt="">
+                                    <img src="assets/imgs/tecnologias/js.png" alt="">
+                                </div>
+
+                                <img class="" src="assets/projetos/imagensPaginas/spotifyclone.png"
+                                    title="Spotify, clicar aqui se quiser acessar o github" width="100%" height="280px">
+                            </a>
+                        </div>
+
                     </section>
 
-                </aside>
-
-
-                <!-- onde ficara os templates -->
-                <article id="principal" class="col-md-9 pageColorInicial">
-
-                    <!-- secao templates -->
+                    <hr>
 
 
 
-                    <h1 class="text-md-center">Templates</h1>
 
-                    <p class="text-monospace">Ola,Sejam bem vindo ao meu portfolio, esses site são apenas para publicar meus projetos ou ideias,como pode ver no menu existe variadas opções cujo eu pretendo realizar projetos e publica-los.
-                    </p>
+                    <!-- angular -->
+                    <h4 class="h1">Angular</h4>
 
-                    <p>nessa parte do site o intuito dele, é apenas demonstrativo, na onde voce deve clicar em uma imagem, e vera Todo o site se modificar de acordo com a foto clicada.</p>
+                    <section class="row text-center mt-3 justify-content-center">
 
-                    <P class="font-weight-bold">TODOS FORAM PRODUZIDO EM Html,CSS,BootStrap,Javascript e Jquery</P>
+                        <div class="backgroundProject" style="width: 40%; display: none;">
 
-                    <img class="rounded w-25 ms-md-5  comHover" src="assets/imgs/TemplateSweetFullNew2.png" id="" onclick="templateSweet()" />
+                            <a href="assets/projetos/consumoWebPages/cepWebService.html" target="_blank">
+                                <h4 class="">About Play</h4>
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/angular.png" alt="">
+                                    <img src="assets/imgs/tecnologias/html.png" alt="">
+                                    <img src="assets/imgs/tecnologias/css3.png" alt="">
+                                    <img src="assets/imgs/tecnologias/bootstrap.png" alt="">
 
-                    <img class="rounded w-25 ms-md-5  comHover" src="assets/imgs/FirestormScreenNew2.png" id="" onclick="templateFire()" />
+                                    <img src="assets/imgs/tecnologias/ts.png" alt="">
+                                    <img src="assets/imgs/tecnologias/java.png" alt="">
+                                    <img src="assets/imgs/tecnologias/spring.png" alt="">
+                                </div>
 
-                    <img class="rounded w-25 ms-md-5  comHover" src="assets/imgs/GirlScreenNew2.png" id="" onclick="templateGirls()" />
+                                <img class="" src="assets/projetos/imagensConsumo/cepblack.png"
+                                    title="About Play angular, clicar aqui se quiser acessar o site" width="100%"
+                                    height="280px">
+                            </a>
+                        </div>
 
-                    <img class="rounded w-25 ms-md-5  mt-3 comHover" src="assets/imgs/BoyScreenNew2.png" id="" onclick="templateBoys()" />
+                        <div class="backgroundProject" style="width: 40%;">
+
+                            <a href=https://unidascommunity.netlify.app/#/entrar" target="_blank">
+                                <h4 class="">Unidas</h4>
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/angular.png" alt="">
+                                    <img src="assets/imgs/tecnologias/html.png" alt="">
+                                    <img src="assets/imgs/tecnologias/css3.png" alt="">
+                                    <img src="assets/imgs/tecnologias/bootstrap.png" alt="">
+
+                                    <img src="assets/imgs/tecnologias/ts.png" alt="">
+                                    <img src="assets/imgs/tecnologias/java.png" alt="">
+                                    <img src="assets/imgs/tecnologias/spring.png" alt="">
+                                </div>
+
+                                <img class="" src="assets/projetos/imagensPaginas/unidasproject.png"
+                                    title="Unidas, clicar aqui se quiser acessar o site" width="100%" height="280px">
+                            </a>
+                        </div>
 
 
-                </article>
-
-
-                <aside id="lateralDireito" class="col-md-3 border border-danger rounded bg-white">
-                    <h5 class="text-md-center ">Templates</h5>
-                    <p class="lead">orem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a diam gravida, scelerisque mi ut, gravida dui. Vivamus sit amet nibh ac metus pellentesque viverra quis sit amet lacus. Nam a tristique nisi.</p>
-
-                    <section id="" class="">
-
-                        <img class="rounded w-75 ms-md-5 mb-md-5 comHover" src="assets/imgs/FirestormScreenNew2.png" id="" onclick="templateFire()">
-                        <img class="rounded w-75 ms-md-5 mb-md-5 comHover" src="assets/imgs/GirlScreenNew2.png" id="" onclick="templateGirls()">
-                        <img class="rounded w-75 ms-md-5 mb-md-5 comHover" src="assets/imgs/TemplateSweetFullNew2.png" id="" onclick="templateSweet()">
                     </section>
 
-                </aside>
+                </div>
+
+
+
+
+                <!-- web consumo -->
+                <div class="container-fluid text-center" style="display:none;" id="consumo">
+
+                    <section class="row text-center mt-3 justify-content-center">
+
+                        <div class="backgroundProject" style="width: 40%;">
+
+                            <a href="assets/projetos/consumoWebPages/cepWebService.html" target="_blank">
+                                <h4 class="">Cep WebService</h4>
+
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/html.png" alt="">
+                                    <img src="assets/imgs/tecnologias/css3.png" alt="">
+                                    <img src="assets/imgs/tecnologias/js.png" alt="">
+                                    <img src="assets/imgs/tecnologias/json.png" alt="">
+                                    <img src="assets/imgs/tecnologias/api.png" alt="">
+                                </div>
+
+                                <img class="" src="assets/projetos/imagensConsumo/cepblack.png"
+                                    title="CepWebService, clicar aqui se quiser acessar o github" width="100%"
+                                    height="450px">
+                            </a>
+                        </div>
+
+
+                        <div class="backgroundProject" style="width: 40%;">
+                            <a href="assets/projetos/consumoWebPages/bibliaWebService.html" target="_blank">
+                                <h4 class="">Biblia WebService</h4>
+
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/html.png" alt="">
+                                    <img src="assets/imgs/tecnologias/css3.png" alt="">
+                                    <img src="assets/imgs/tecnologias/js.png" alt="">
+                                    <img src="assets/imgs/tecnologias/json.png" alt="">
+                                    <img src="assets/imgs/tecnologias/api.png" alt="">
+                                </div>
+
+
+                                <img class="" src="assets/projetos/imagensConsumo/bibliablack.png" class="imgBiblia"
+                                    alt="BibliaWebService" title="Biblia, clicar aqui se quiser acessar o github"
+                                    id="BibliaWebService" width="100%" height="450px">
+                            </a>
+                        </div>
+
+
+                    </section>
+
+                </div>
+
+
+
+                <!-- android -->
+                <div class="container-fluid  text-center" style="display: none;" id="android">
+
+                    <section class="row mt-3">
+
+                        <div class="backgroundProject" style="width: 31%;">
+
+                            <a href="https://github.com/mig1998/findStreet-Android-java-" target="_blank">
+                                <h4 class="">Find Street</h4>
+
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/android.png" alt="">
+                                    <img src="assets/imgs/tecnologias/java.png" alt="">
+                                    <img src="assets/imgs/tecnologias/json.png" alt="">
+                                    <img src="assets/imgs/tecnologias/api.png" alt="">
+                                </div>
+
+
+                                <img class="" src="assets/projetos/imagensAndroid/findStreet.png"
+                                    title="Find Street aplicativo, clicar aqui se quiser acessar o github" width="100%"
+                                    height="350px">
+                            </a>
+                        </div>
+
+
+                        <div class=" backgroundProject" style="width: 31%;">
+
+                            <a href="https://github.com/mig1998/Calculadora-Android-Java" target="_blank">
+                                <h4 class="">Calculadora</h4>
+
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/android.png" alt="">
+                                    <img src="assets/imgs/tecnologias/java.png" alt="">
+                                </div>
+
+                                <img class="" src="assets/projetos/imagensAndroid/Calculadora.png"
+                                    title="Calculadora aplicativo, clicar aqui se quiser acessar o github" width="100%"
+                                    height="350px">
+                            </a>
+                        </div>
+
+
+
+
+                        <div class="backgroundProject" style="width: 31%;">
+
+                            <a href="https://github.com/mig1998/MyBank-Android-Studio" target="_blank">
+                                <h4 class="">MyBank</h4>
+
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/android.png" alt="">
+                                    <img src="assets/imgs/tecnologias/java.png" alt="">
+                                    <img src="assets/imgs/tecnologias/sql.png" alt="">
+                                </div>
+
+                                <img class="" src="assets/projetos/imagensAndroid/Mybank.png"
+                                    title="MyBank aplicativo, clicar aqui se quiser acessar o github" width="100%"
+                                    height="350px">
+                            </a>
+                        </div>
+
+                        <section class="row mt-5">
+
+                            <div class="backgroundProject" style="width: 31%;">
+                                <a href="https://github.com/mig1998/myPiano" target="_blank">
+                                    <h4 class="">MyPiano</h4>
+
+                                    <div class="tecnologias">
+                                        <img src="assets/imgs/tecnologias/android.png" alt="">
+                                        <img src="assets/imgs/tecnologias/java.png" alt="">
+                                    </div>
+
+                                    <img class="" src="assets/projetos/imagensAndroid/mypiano.png"
+                                        title="MyPiano aplicativo, clicar aqui se quiser acessar o github" width="100%"
+                                        height="350px">
+                                </a>
+                            </div>
+
+                        </section>
+                    </section>
+
+
+
+                </div>
+
+
+
+                <!-- C# -->
+                <div class="container-fluid text-center" style="display: none;" id="c">
+
+
+                    <section class="row mt-3">
+                        <div class="backgroundProject" style="width: 31%;">
+                            <a href="https://github.com/mig1998/Calculadora-Csharp" target="_blank">
+                                <h4 class="">Calculadora</h4>
+
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/c.png" alt="">
+                                </div>
+
+
+                                <img class="" src="assets/projetos/imagensC/aplicativoImagem.png"
+                                    title="Calculadora, clicar aqui se quiser acessar o github" width="100%"
+                                    height="350px">
+                            </a>
+                        </div>
+
+                        <div class="backgroundProject" style="width: 31%;">
+                            <a href="https://github.com/mig1998/ConsultarCep-CSharp" target="_blank">
+                                <h4 class="">Consultar Cep</h4>
+
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/c.png" alt="">
+                                    <img src="assets/imgs/tecnologias/api.png" alt="">
+                                </div>
+
+                                <img class="" src="assets/projetos/imagensC/consultarcep.png"
+                                    title="Consultar Cep, clicar aqui se quiser acessar o github" width="100%"
+                                    height="350px">
+                            </a>
+                        </div>
+
+                        <div class="backgroundProject" style="width: 31%;">
+                            <a href="https://github.com/mig1998/c-Loja-Virtual" target="_blank">
+                                <h4 class="">Loja Virtual</h4>
+
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/c.png" alt="">
+                                    <img src="assets/imgs/tecnologias/sql.png" alt="">
+                                </div>
+
+                                <img class="" src="assets/projetos/imagensC/adm.png"
+                                    title="Loja Virtual, clicar aqui se quiser acessar o github" width="100%"
+                                    height="350px">
+                            </a>
+                        </div>
+
+                    </section>
+
+
+
+
+                </div>
+
+
+
+                <!-- java -->
+                <div class="container-fluid text-center" style="display: none;" id="java">
+
+
+                    <div class="row justify-content-center mt-3">
+                        <div class="backgroundProject" style="width: 40%;">
+                            <a href="https://github.com/mig1998/CalculadoraJava" target="_blank">
+                                <h4 class="">Calculadora</h4>
+
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/java.png" alt="">
+                                </div>
+
+                                <img class="" src="assets/projetos/imagensJava/CalculadoraJava.png"
+                                    title="Calculadora, clicar aqui se quiser acessar o github" width="90%"
+                                    height="400px">
+                            </a>
+                        </div>
+
+                        <div class="backgroundProject" style="width: 40%;">
+                          
+                            <a href="https://github.com/mig1998/Bloco2/tree/Master/SpringBoot/BlogPessoal"
+                                target="_blank">
+                                <h4 class="">BlogPessoal <br> (SpringBoot)</h4>
+
+                                <div class="tecnologias">
+                                    <img src="assets/imgs/tecnologias/java.png" alt="">
+                                    <img src="assets/imgs/tecnologias/mysql.png" alt="">
+                                    <img src="assets/imgs/tecnologias/spring.png" alt="">
+
+                                </div>
+
+
+                                <img class="" src="assets/projetos/imagensJava/BlogPessoal.png"
+                                    title="BlogPessoal spring, clicar aqui se quiser acessar o github" width="90%"
+                                    height="400px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </div>
-
-        <footer id="rodape" class="border border-success text-center bgfooterInicial">
-
-            <h4>
-                <p class="">Miguel de Araujo da Silva- &copy; Todos os Direitos Reservados</p>
-            </h4>
-
-            <a class="me-5" href="https://github.com/mig1998?tab=repositories" target="_blank"><img src="assets/icons/gitHUB.png"></a>
-            <a href="https://www.linkedin.com/in/miguelaraujo98/" target="_blank"><img src="assets/icons/linkedin.png"></a>
 
 
-        </footer>
+        </article>
+
 
 
     </main>
 
 
+
     <script src="assets/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/scripts/inicio.js"></script>
+
 </body>
+
+
+
+
+</html>

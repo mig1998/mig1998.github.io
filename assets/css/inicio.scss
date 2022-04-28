@@ -1,11 +1,9 @@
-
-
-
 * {
   list-style: none !important;
   text-decoration: none !important;
   margin: 0;
   padding: 0;
+
 }
 
 
@@ -17,20 +15,29 @@
 }
 
 .tec img {
-  width: 8%;
-  height: 13%;
+  width: 7%;
   margin: 2%;
 }
 
 
 model-viewer {
-  width: 25em;
+  width: 30em;
   height: 400px;
 }
 
 
+.bg-video {
+  position: fixed;
+
+  z-index: -100;
+  height: 67em;
+  
+ 
+}
+
+
 #divMyText {
-  margin-top: 15%;
+  margin-top: 12%;
 }
 
 
@@ -41,7 +48,7 @@ model-viewer {
 }
 
 
-
+#layouts,
 #consumo,
 #android,
 #c,
@@ -63,8 +70,18 @@ model-viewer {
 
   img {
     border-radius: 1em;
-    box-shadow: 0px 0px 1em 0 rgb(0, 0, 0);
     margin-bottom: 5%;
+  }
+
+  .tecnologias{
+   
+    margin-top: 5%;
+
+    img{
+      width:11%;
+      margin-left: 2.3%;
+      height: 2.4em;
+    }
   }
 
 }
@@ -74,6 +91,11 @@ model-viewer {
 .backgroundProject {
   background-color: #0000007d;
   border-radius: 2em;
+
+  &:hover{
+    transition: 1s;
+    background-color: rgb(62, 57, 69);
+  }
 }
 
 

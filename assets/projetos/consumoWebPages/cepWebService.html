@@ -4,9 +4,10 @@
 <head>
     <title>cep-WebService</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="/paginas/css/phpWebCss.css">
+    <link rel="stylesheet" type="text/css" href="/assets/projetos/css/consumo.css">
 
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="/assets/scripts/phpWebJscript.js"></script>
 
@@ -15,39 +16,16 @@
 
 <body id="template" class="cepService">
 
-    <header id="topo" class="topoPhpWeb">
-        <a href="phpWeb.html">Web Services</a>
-
-    </header>
-
-    <nav id="menu" class="menuPhpWeb">
-
-
-        <ul id="ul" class="menuUPhpWeb">
-            <li><a href="../../index.html">Web</a></li>
-            <li><a href="../phpWeb.html">Web Services</a></li>
-            <li><a href="../android.html">Android</a></li>
-            <li><a href="../c.html">C#</a></li>
-            <li><a href="../java.html">Java</a></li>
-            <li class=""> <a href="/assets/curriculo/Miguel de Araujo da Silva Curriculo.pdf" class="" target="_blank">Curriculo</a></li>
-        </ul>
-
-
-    </nav>
 
     <article id="principal" class="principalcepService">
 
-        <section>
+        <h3 class="textoCep">Este é o Web Service de buscar o Cep e achar o endereço desejado, faça um teste!:) </h3>
 
-            <p class="textoCep">Este é o Web Service de buscar o Cep e achar o endereço desejado, faça um teste!:) </p>
 
+
+        <section class="btnVoltar">
+            <a href="" class="">Voltar</a>
         </section>
-
-
-
-<section class="btnVoltar">
-        <a href="/paginas/phpWeb.html" class="">Voltar</a>
-</section>
 
         <!--buscar por CEP ------------------------------------------>
 
@@ -56,9 +34,11 @@
             <fieldset>
 
                 <legend>CEP WebService</legend>
-                <label for="cep">CEP:</label>
-                <input type="text" id="cep" name="cep" placeholder="Digite o Cep" required>
 
+                <div>
+                    <label for="cep">Cep:</label>
+                    <input type="text" id="cep" name="cep" placeholder="Digite o Cep" required>
+                </div>
 
 
                 <button id="btnGetCep" class="" type="button">Buscar</button>
@@ -70,7 +50,7 @@
 
         <div id="getCep" class=""></div>
 
-<hr>
+        <hr>
 
         <!--buscar por rua ------------------------------------------>
 
@@ -82,14 +62,20 @@
                 <b><span style="color: black;"></span></b>
                 <legend>CEP WebService</legend>
 
-                <label for="rua">Logradouro:</label>
-                <input type="text" id="rua2" class="" placeholder="digite a Rua" required>
+                <div>
+                    <label for="rua">Logradouro:</label>
+                    <input type="text" id="rua2" class="" placeholder="digite a Rua" required>
+                </div>
 
-                <label for="local">Localidade:</label>
-                <input type="text" id="local2" class="" name="local" placeholder="digite a Localidade" required>
+                <div>
+                    <label for="local">Localidade:</label>
+                    <input type="text" id="local2" class="" name="local" placeholder="digite a Localidade" required>
+                </div>
 
-                <label for="uf">UF:</label>
-                <input type="text" id="uf2" class="" name="uf" placeholder="digite o UF" required>
+                <div>
+                    <label for="uf">UF:</label>
+                    <input type="text" id="uf2" class="" name="uf" placeholder="digite o UF" required>
+                </div>
 
                 <button id="btnGetAll" class="" type="button">Buscar</button>
             </fieldset>
@@ -106,7 +92,8 @@
             <p class="">Miguel de Araujo da Silva- &copy; Todos os Direitos Reservados</p>
         </h4>
 
-        <a class="me-5" href="https://github.com/mig1998?tab=repositories" target="_blank"><img src="/assets/icons/gitHUB.png"></a>
+        <a class="me-5" href="https://github.com/mig1998?tab=repositories" target="_blank"><img
+                src="/assets/icons/gitHUB.png"></a>
         <a href="https://www.linkedin.com/in/miguelaraujo98/" target="_blank"><img src="/assets/icons/linkedin.png"></a>
 
     </footer>
