@@ -132,8 +132,8 @@ model-viewer {
   text-align: center;
 }
 .menu li {
-  margin: 40% 2% 2% 2%;
-  padding: 50% 10% 0 0;
+  margin: 40% 2% 60% 2%;
+  padding: 30% 10% 0 0;
 }
 .menu li a {
   color: lightgreen;
